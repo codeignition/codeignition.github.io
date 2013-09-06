@@ -28,36 +28,31 @@ html, body {
   height: 100%;
 }
 body {
-  background: url("../images/bg.png") repeat scroll left top #FCF9F7;
   font-family: "Helvetica Neue",Helvetica,Arial;
   margin: 0;
   padding: 0;
 }
-div#shim {
-  float: left;
-  height: 50%;
-  margin-top: -250px;
-  visibility: hidden;
-  width: 100%;
 }
 div#content {
   clear: both;
-  height: 500px;
-  margin: 0 auto;
-  position: static;
-  top: -250px;
-  width: 940px;
+  height: 60%;
+  width:90%;
 }
 .watch {
-  background: url("../images/watch.png") no-repeat scroll left bottom transparent;
   float: left;
-  height: 500px;
+  height: 50%;
   margin-right: 30px;
-  width: 384px;
+  margin-left:10%;
+  float:left;
+  width: 30%;
+  margin-top:14%;
 }
 .rest {
   float: left;
-  width: 526px;
+  width: 40%;
+  height:60%;
+  margin-top:14%;
+  float:left;
 }
 .clear {
   clear: both;
@@ -96,6 +91,10 @@ h2 span {
   font-size: 25px;
   font-weight: 300;
   letter-spacing: 0;
+}
+h3 {
+  color:black;
+  font-size:20px;
 }
 p {
   color: #4D4D4D;
@@ -139,16 +138,12 @@ ul.info li {
 ul.info li a {
   color: #4D4D4D;
 }
-ul.info li.ph {
-  background: url("../images/icons.png") no-repeat scroll left top transparent;
-  padding-top: 25px;
-}
 ul.info li.ad {
   background: url("../images/icons.png") no-repeat scroll left -208px transparent;
   padding-top: 25px;
 }
 ul.info li.mail {
-  background: url("../images/icons.png") no-repeat scroll left -107px transparent;
+  background: url("./4.jpg") no-repeat scroll left -107px transparent;
   padding-top: 25px;
 }
 
