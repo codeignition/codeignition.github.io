@@ -1,160 +1,154 @@
 
-dy,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
-
-html,body{
-  height: 100%;
+dy, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
 }
-
-body{
-  margin:0;
-  padding:0;
-  background: #fcf9f7 url(../images/bg.png) left top repeat;
-  font-family:"Helvetica Neue",Helvetica, Arial;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-container{
-  height:1376px;
-  width:760px
+fieldset, img {
+  border: 0 none;
 }
-div#shim{
-  visibility: hidden;
-  width: 100%;
-  height: 50%;                                                                     
-  margin-top: -250px;                                                              
-  float: left;
+address, caption, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
 }
-
-div#content {
-  width: 100%;
-  height: 80%;
-  margin-left: 5%;
-  clear:both;
-  position: relative;
-  margin-top: 10%;
-
-  /* IE4ever Hack: Hide from IE4 **/
-  position: static;
-  /** end hack */
+li {
+  list-style: none outside none;
 }
-
-/* Hide from IE5mac \*//*/
-div#shim {
-display: none;
+caption, th {
+  text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
 }
 html, body {
-height: auto;
+  height: 100%;
 }
-/* end hack */
-/* ]]> */
-.watch{
-  width: 384px;
+body {
+  background: url("../images/bg.png") repeat scroll left top #FCF9F7;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  margin: 0;
+  padding: 0;
+}
+div#shim {
+  float: left;
+  height: 50%;
+  margin-top: -250px;
+  visibility: hidden;
+  width: 100%;
+}
+div#content {
+  clear: both;
   height: 500px;
-  background: url(../images/watch.png) left bottom no-repeat;
+  margin: 0 auto;
+  position: static;
+  top: -250px;
+  width: 940px;
+}
+.watch {
+  background: url("../images/watch.png") no-repeat scroll left bottom transparent;
   float: left;
+  height: 500px;
   margin-right: 30px;
+  width: 384px;
 }
-
-.rest{
-  width: 526px;
+.rest {
   float: left;
+  width: 526px;
 }
-
-.clear{
+.clear {
   clear: both;
 }
-
-h1{
-  font-family: 'Crete Round', serif;
-  background: url(../images/logo.png) repeat;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  padding: 20px;
+h1 {
+  background: url("../images/logo.png") repeat scroll 0 0 transparent;
+  border-radius: 20px 20px 20px 20px;
+  color: #4D4D4D;
+  float: left;
+  font-family: 'Crete Round',serif;
   font-size: 72px;
-  color: #4d4d4d;
   letter-spacing: -2px;
   line-height: 50px;
-  float: left;
   margin-bottom: 10px;
+  padding: 20px;
 }
-
-h1 span{
+h1 span {
   display: block;
-  font-family: 'Parisienne', cursive;
+  font-family: 'Parisienne',cursive;
   font-size: 32px;
+  letter-spacing: 0;
   line-height: 30px;
   margin-left: 40px;
-  letter-spacing: 0;
 }
-
-h2{
-  color: #396f90;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+h2 {
+  color: #396F90;
+  font-family: 'Oswald',sans-serif;
   font-size: 80px;
   font-weight: 700;
-  line-height: 55px;
   letter-spacing: -2px;
-  margin-bottom: 20px;
-}
-h3{
-  color: #396f90;
-  font-family: 'calibri', sans-serif;
-  font-size: 40px;
-
   line-height: 55px;
-  letter-spacing: -2px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
-  h2 span{
-    font-size: 25px;
-    font-weight: 300;
-    letter-spacing: 0;
-  }
-
-  p{
-    font-family: 'PT Sans Caption', sans-serif;
-    font-size: 16px;
-    color: #4d4d4d;
-  }
-
-social{
-
-  height:5%;
-  float:left;
-  text-align:center;
-  width:5%;
+h2 span {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 0;
 }
-
-  ul.info{
-    width: 526px;
-    float: left;
-  }
-
-  ul.info li{
-    float: left;
-    margin-right: 40px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    color: #4d4d4d;
-  }
-
-  ul.info li a{
-    color: #4d4d4d;
-  }
-  ul.info li.ph{
-    background: url(../images/icons.png) left top no-repeat;
-    padding-top: 25px;
-  }
-
-  ul.info li.ad{
-    background: url(../images/icons.png) left -208px no-repeat;
-    padding-top: 25px;
-  }
-
-  ul.info li.mail{
-    background: url(../images/icons.png) left -107px no-repeat;
-    padding-top: 25px;
-  }
+p {
+  color: #4D4D4D;
+  font-family: 'PT Sans Caption',sans-serif;
+  font-size: 16px;
+}
+ul.social {
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  width: 526px;
+}
+ul.social li {
+  float: left;
+  margin-right: 25px;
+}
+ul.social li a img{
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+ul.social li a.git {
+  background-position: 0 0;
+}
+ul.social li a.git:hover {
+  background-position: 0 -60px;
+}
+ul.info {
+  float: left;
+  width: 526px;
+}
+ul.info li {
+  color: #4D4D4D;
+  float: left;
+  font-family: 'Oswald',sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+ul.info li a {
+  color: #4D4D4D;
+}
+ul.info li.ph {
+  background: url("../images/icons.png") no-repeat scroll left top transparent;
+  padding-top: 25px;
+}
+ul.info li.ad {
+  background: url("../images/icons.png") no-repeat scroll left -208px transparent;
+  padding-top: 25px;
+}
+ul.info li.mail {
+  background: url("../images/icons.png") no-repeat scroll left -107px transparent;
+  padding-top: 25px;
+}
 
