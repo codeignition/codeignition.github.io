@@ -27,34 +27,33 @@ h1, h2, h3, h4, h5, h6 {
 html, body {
   height: 100%;
 }
-body {
+
+#container
+{
+  height: 660px;
+  width:1286px;
   font-family: "Helvetica Neue",Helvetica,Arial;
-  margin: 0;
-  padding: 0;
+  z-index:100;
+  overflow:hidden;
+  position:absolute;
+  margin-left:auto;
+  margin:right:auto;
 }
-}
-div#content {
-  clear: both;
-  height: 60%;
-  width:90%;
-}
-.watch {
-  float: left;
+#watch {
+  position:absolute;
   height: 50%;
-  margin-right: 30px;
-  margin-left:10%;
-  float:left;
-  width: 30%;
-  margin-top:14%;
+  left:12%;
+  top:20%;
+  z-index:300;
 }
-.rest {
-  float: left;
+#rest {
+  position:absolute;
   width: 40%;
   height:60%;
-  margin-top:14%;
-  float:left;
+  top:20%;
+  left:40%;
 }
-.clear {
+#clear {
   clear: both;
 }
 h1 {
@@ -80,7 +79,7 @@ h1 span {
 h2 {
   color: #396F90;
   font-family: 'Oswald',sans-serif;
-  font-size: 80px;
+  font-size: 500%;
   font-weight: 700;
   letter-spacing: -2px;
   line-height: 55px;
@@ -88,7 +87,7 @@ h2 {
   text-transform: uppercase;
 }
 h2 span {
-  font-size: 25px;
+  font-size: 40%;
   font-weight: 300;
   letter-spacing: 0;
 }
@@ -146,4 +145,3 @@ ul.info li.mail {
   background: url("./4.jpg") no-repeat scroll left -107px transparent;
   padding-top: 25px;
 }
-
