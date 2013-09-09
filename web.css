@@ -131,9 +131,6 @@ ul.social li a{
   float: left;
 }
 
-ul.social li a.git{
-  background-position: 0 0;
-}
 
 ul.social li a:hover.git{
   background-position: 0 -60px;
