@@ -24,14 +24,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight: normal;
 }
-html, body {
-  height: 100%;
-}
-
 #container
 {
-  height: 660px;
-  width:1286px;
+  height: 655px;
+  width:1280px;
   font-family: "Helvetica Neue",Helvetica,Arial;
   z-index:100;
   overflow:hidden;
@@ -39,6 +35,28 @@ html, body {
   margin-left:auto;
   margin:right:auto;
 }
+#top_box
+{
+  position:absolute;
+  width:100%;
+  height:40px;
+  z-index:300;
+  opacity:0.9;
+  top: 0%;
+  background-color:#4D4D4D;
+}
+
+#text
+{
+  position:absolute;
+  width:20%;
+  height:80%;
+  z-index:400;
+  left:3%;
+  top:14%;
+}
+
+
 #watch {
   position:absolute;
   height: 50%;
@@ -92,7 +110,7 @@ h2 span {
   letter-spacing: 0;
 }
 h3 {
-  color:black;
+  color:white;
   font-size:20px;
 }
 p {
