@@ -1,0 +1,4 @@
+
+http://username.github.io/atom.xml
+http://username.github.io/sitemap.txt
+http://username.github.io/rss.xml
