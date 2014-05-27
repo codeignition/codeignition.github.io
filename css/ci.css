@@ -5,6 +5,8 @@
 
 .topnav {
   float:top;
+  position:fixed;
+  width:1020px;
 }
 .logo {
   float:left;
