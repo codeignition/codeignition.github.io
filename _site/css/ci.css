@@ -115,7 +115,9 @@ hr {
   line-height:30pt;
 }
 
-
+.image{
+  float:left;
+}
 IMG.client-image {
   padding-left:10px;
   padding-right:10px;
