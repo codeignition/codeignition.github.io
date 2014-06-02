@@ -29,7 +29,7 @@ a.topmenuitem {
 }
 a.topmenuitem:hover {
   text-decoration:none;
-  color: #000000;
+  color: #94a4a5;
 }
 a.topmenuitem:visited {
   text-decoration:none;
@@ -51,7 +51,6 @@ a.topmenuitem:active {
   color: #4989a5;
 }
 .main_unit_text{
-
   display: inline-block;
   vertical-align: center;
   line-height: normal;
@@ -81,6 +80,11 @@ hr {
   padding-top:5px;
 }
 
+.section-content-team {
+  text-align:left;
+  padding-top:5px;
+}
+
 .section-content-header {
   width:100%;
   display:block;
@@ -92,6 +96,13 @@ hr {
   line-height:30pt;
 }
 
+.section-content-links {
+  font-family:"Roboto Slab";
+  font-size:16pt;
+  color:#4989a5;
+  display:block;
+  text-decoration:none;
+}
 .section-content-text {
   width:100%;
   display:block;

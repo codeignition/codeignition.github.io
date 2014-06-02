@@ -8,7 +8,6 @@ highlighter: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-baseurl : http://codeignition.co
 title : CodeIgnition - DevOps people
 tagline: Smart apps deserve smart infrastructure
 author :
