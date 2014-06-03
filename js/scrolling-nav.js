@@ -3,7 +3,7 @@ $(function() {
   $('.page-scroll a').bind('click', function(event) {
     var $anchor = $(this);
     $('html, body').stop().animate({
-      scrollTop: $($anchor.attr('href').split("/")[1]).offset().top-25
+      scrollTop: $($anchor.attr('href').split("/").pop()).offset().top-25
     }, 1500, 'easeInOutExpo');
     event.preventDefault();
   });
