@@ -1,5 +1,5 @@
 body{
-  margin-top: 50px;
+  margin-top: 550px;
 }
 .container {
   margin: 0 auto;
@@ -29,7 +29,7 @@ body{
   float: right;
   font-family:"Roboto Slab";
   font-weight:300;
-  font-size:13pt;
+  font-size:12pt;
   line-height: 1.2em;
 }
 a.topmenu-item {
@@ -53,6 +53,9 @@ a.topmenu-item:active {
 
 .main-unit {
   display: table;
+  position: fixed;
+  top: 50px;
+  z-index: -1;
   font-family:"Roboto Slab";
   font-weight:300;
   font-size:52pt;
