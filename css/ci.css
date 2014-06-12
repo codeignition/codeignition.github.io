@@ -138,25 +138,21 @@ a.topmenu-item:active {
 }
 
 /*---------  Team --------*/
-
-
-
-
 .teamwrap{
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 22px
 }
 
 .section-content-team {
   text-align:left;
-  width: 45%;
+  width: 28%;
   display: inline-block;
   float: left;
   border:dashed 1px #888;
   margin: 10px;
   padding: 10px;
-  min-height: 380px;
+  min-height: 500px;
 }
 .section-content-header {
   font-weight:100;
@@ -182,6 +178,15 @@ a.topmenu-item:active {
   float:left;
 }
 
+.contact{
+  background-color: #498985;
+  color: #fff;
+  padding:10px 0 30px;
+  margin-top: 30px;
+}
+.contact .section-title-text, .contact .section-content-text{
+  color: #fff;
+}
 
 
 
