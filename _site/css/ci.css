@@ -104,7 +104,7 @@ a.topmenu-item:active {
   font-family:"Merriweather";
   font-weight:100;
   font-style:italic;
-  font-size:16;
+  font-size:16px;
   color:#010101;
   line-height:30pt;
 }
@@ -187,7 +187,10 @@ a.topmenu-item:active {
 .contact .section-title-text, .contact .section-content-text{
   color: #fff;
 }
-
+.single-image{
+  padding-right: 20px;
+  float: left
+}
 
 
 
