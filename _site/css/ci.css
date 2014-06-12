@@ -118,12 +118,23 @@ a.topmenu-item:active {
   line-height: 0;
 }
 .thumbnail:hover{
-  border-color: #faa
+  border-color: #f99
 }
 .client-image{
   height:45px;
   max-width: 100%;
 }
+.techwrap{
+  margin-top: 30px;
+}
+.thumbnailtech{
+  display: inline-block;
+}
+.tech-image{
+  height: 100px;
+  padding: 10px;
+}
+
 
 
 
