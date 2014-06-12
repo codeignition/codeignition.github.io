@@ -144,6 +144,8 @@ a.topmenu-item:active {
 
 .teamwrap{
   text-align: center;
+  font-size: 15px;
+  line-height: 22px
 }
 
 .section-content-team {
@@ -154,26 +156,27 @@ a.topmenu-item:active {
   border:dashed 1px #888;
   margin: 10px;
   padding: 10px;
-  min-height: 500px;
+  min-height: 380px;
 }
 .section-content-header {
-  width:100%;
-  display:block;
   font-weight:100;
-  font-size:24pt;
+  font-size:20pt;
   color:#4989a5;
-  padding-top:20px;
   line-height:30pt;
 }
 
 .section-content-links {
-  
   font-size:16pt;
   color:#4989a5;
-  display:block;
   text-decoration:none;
 }
-
+.section-content-links img{
+  height: 15px;
+  padding:0 2px;
+}
+.teamwrap .section-content-text{
+  display: block;
+}
 
 .image{
   float:left;
