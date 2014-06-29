@@ -1,4 +1,4 @@
-http://codeignition.github.com
+codeignition.github.com
 =======================
 
 Codeigniton Website
