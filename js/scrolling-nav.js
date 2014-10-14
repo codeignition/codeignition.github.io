@@ -76,7 +76,7 @@ setInterval(function() {
       $this.text('Handcrafted infrastructure for beautifully written apps');
     }
     else if ($this.text() == 'Great products deserve smart infrastructure') {
-      $this.text('Awesome ideas needs beautifully written applications');
+      $this.text('Awesome ideas need beautifully written applications');
     }
     else      {
       $this.text('Great products deserve smart infrastructure');
