@@ -14,11 +14,17 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
-h1, h2, h3, h4 {
-  color: #f22430;
+/*h1, h2, h3, h4 {*/
+  /*color: #f22430;*/
+/*}*/
+
+body {
+  text-align: center;
 }
+
 #footer {
-  background-color: #fdcd60;
+  background-color: #262A2B;
+  color: #FFFFFF;
 }
 
 
