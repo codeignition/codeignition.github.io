@@ -16,8 +16,9 @@
     <!-- Optional theme -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     <!-- Sticky Footer -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
-    
+    {% comment %}<link href="{{ ASSET_PATH }}/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">{% endcomment %}
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/font-awesome-4.3.0/css/font-awesome.min.css">
+
     <!-- Custom styles -->
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
@@ -76,7 +77,24 @@
 
     <div id="footer">
       <div class="container">
-        <p>&copy; {{ site.author.name }} {{ site.time | date: '%Y' }}</p>
+        <div class="col-sm-4">
+          <h4>Email Shout-Out</h4>
+          <p>If you think we can help you, or if you just want to chat, email us at <strong>{{ site.author.email }}</strong></p>
+        </div>
+        <div class="col-sm-4">
+          <h4>Elsewhere Online</h4>
+          <i class="fa fa-github"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <div class="col-sm-4">
+          <h4>IRL Address</h4>
+          <div class="row"><strong>G-313, Sector 63, Noida, UP, India</strong></div>
+          <p>If you're lost nearby, drop in for a coffee anytime</p>
+        </div>
+        <div class="col-sm-12">
+          <p>&copy; {{ site.author.name }} {{ site.time | date: '%Y' }}</p>
+        </div>
       </div>
     </div>
 
