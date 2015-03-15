@@ -4,7 +4,7 @@ title: CodeIgnition
 ---
 {% include JB/setup %}
 
-# "Smart Applications Deserve Smart Infrastructure."
+<h1 class="quote">"Smart Applications Deserve Smart Infrastructure."</h1>
 ***
 
 We are a lean & agile start-up that loves helping new & emerging start-ups to build, deploy, automate & scale buisness critical solutions.

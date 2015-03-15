@@ -22,6 +22,10 @@ body {
   text-align: center;
 }
 
+.quote {
+  color: #945CA5;
+}
+
 #footer {
   background-color: #262A2B;
   color: #FFFFFF;
