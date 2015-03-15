@@ -22,6 +22,10 @@ body {
   text-align: center;
 }
 
+hr {
+  margin: 6%;
+}
+
 .quote {
   color: #945CA5;
 }
