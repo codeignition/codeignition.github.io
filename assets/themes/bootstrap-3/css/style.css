@@ -30,6 +30,18 @@ hr {
   color: #945CA5;
 }
 
+.content-block {
+  margin: 6%;
+}
+
+.content-block h1 {
+  margin: 6%;
+}
+
+.content-block .text {
+  margin: 3%;
+}
+
 #footer {
   background-color: #262A2B;
   color: #FFFFFF;

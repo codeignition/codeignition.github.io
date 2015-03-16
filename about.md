@@ -1,6 +1,8 @@
 ---
 layout: default
 title: CodeIgnition
+theme :
+  name : bootstrap-3
 ---
 {% include JB/setup %}
 
@@ -35,22 +37,41 @@ Since setting up shop in early 2013, we have wisely used DevOps, Continous Deliv
 **CONTINOUS DELIVERY**
 
 ***
-
-# Our Toolkit
-
-<br/>
-
-We love to experiment with Chef, AWS, Puppet, Jenkins, Ansible, Docker, Azure, Nagios & more for a smarter infrastructure that scales automatically.
-
-As curious developers, we love to play with Ruby, Go, Python, JavaScript, Java & related frameworks, and we are very flexible in adopting to our client's stack & choices.
+<div class="content-block">
+  <h1>Our Toolkit</h1>
+  <div class="text">
+    <p>We love to experiment with Chef, AWS, Puppet, Jenkins, Ansible, Docker, Azure, Nagios & more for a smarter infrastructure that scales automatically.</p>
+    <p>As curious developers, we love to play with Ruby, Go, Python, JavaScript, Java & related frameworks, and we are very flexible in adopting to our client's stack & choices.</p>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="col-md-3"><img alt="ansible" class="img-responsive" src="{{ ASSET_PATH }}/images/ansible.png"></div>
+      <div class="col-md-3"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws-logo.png"></div>
+      <div class="col-md-3"><img alt="chef" class="img-responsive" src="{{ ASSET_PATH }}/images/chef2.png"></div>
+      <div class="col-md-3"><img alt="docker" class="img-responsive" src="{{ ASSET_PATH }}/images/docker.png"></div>
+    </div>
+    <div class="col-md-6">
+      <div class="col-md-3"><img alt="golang" class="img-responsive" src="{{ ASSET_PATH }}/images/golang.png"></div>
+      <div class="col-md-3"><img alt="jenkins" class="img-responsive" src="{{ ASSET_PATH }}/images/jenkinslogo.png"></div>
+      <div class="col-md-3"><img alt="puppet" class="img-responsive" src="{{ ASSET_PATH }}/images/Puppet-logo.png"></div>
+      <div class="col-md-3"><img alt="ruby" class="img-responsive" src="{{ ASSET_PATH }}/images/Ruby_logo.png"></div>
+    </div>
+  </div>
+</div>
 
 ***
 
-# Our Partners
-
-<br/>
-
-We are proud to be friends with:
+<div class="content-block">
+  <h1>Our Partners</h1>
+  <p class="text">We are proud to be friends with:</p>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="col-md-4"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws-logo.png"></div>
+      <div class="col-md-4"><img alt="c42" class="img-responsive" src="{{ ASSET_PATH }}/images/c42logo.png"></div>
+      <div class="col-md-4"><img alt="josh" class="img-responsive" src="{{ ASSET_PATH }}/images/josh.png"></div>
+    </div>
+  </div>
+</div>
 
 ***
 
