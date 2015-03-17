@@ -6,9 +6,7 @@ theme :
 ---
 {% include JB/setup %}
 
-# About Us
-
-***
+<h1>About Us</h1>
 <div class="content-block">
   <div class="text">
     <p>Any product or service – big or small, developed or imagined – needs a Strong, Scalable & Evolving technology backbone to succeed.</p>
@@ -17,7 +15,7 @@ theme :
     <p>Since setting up shop in early 2013, we have wisely used DevOps, Continous Delivery & Cloud among other things to do just that.</p>
   </div>
 </div>
-***
+<hr/>
 <div class="content-block">
   <h1 class="purple">Our Processes</h1>
   <p class="text">4 Simple methodologies we live by:</p>
@@ -26,7 +24,7 @@ theme :
   <p><strong>CONTINOUS INTEGRATION</strong></p>
   <p><strong>CONTINOUS DELIVERY</strong></p>
 </div>
-***
+<hr/>
 <div class="content-block">
   <h1 class="purple">Our Toolkit</h1>
   <div class="text">
@@ -48,7 +46,7 @@ theme :
     </div>
   </div>
 </div>
-***
+<hr/>
 <div class="content-block">
   <h1 class="purple">Our Partners</h1>
   <p class="text">We are proud to be friends with:</p>
@@ -60,7 +58,11 @@ theme :
     </div>
   </div>
 </div>
-
-***
-
-[More about Us]() \| [What we do]()
+<hr/>
+<div class="content-block">
+  <p class="text">
+    <a href="">More about Us</a>
+    |
+    <a href="">What we do</a>
+  </p>
+</div>
