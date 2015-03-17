@@ -80,19 +80,29 @@
     <div id="footer">
       <div class="container">
         <div class="col-sm-4">
-          <h4>Email Shout-Out</h4>
-          <p>If you think we can help you, or if you just want to chat, email us at <strong>{{ site.author.email }}</strong></p>
+          <div class="content-block">
+            <h4>Email Shout-Out</h4>
+            <p class="text">If you think we can help you, or if you just want to chat, email us at <strong>{{ site.author.email }}</strong></p>
+          </div>
         </div>
         <div class="col-sm-4">
-          <h4>Elsewhere Online</h4>
-          <i class="fa fa-github"></i>
-          <i class="fa fa-twitter"></i>
-          <i class="fa fa-linkedin"></i>
+          <div class="content-block">
+            <h4>Elsewhere Online</h4>
+            <div class="text">
+              <i class="fa fa-2x fa-github"></i>
+              <i class="fa fa-2x fa-twitter"></i>
+              <i class="fa fa-2x fa-linkedin"></i>
+            </div>
+          </div>
         </div>
         <div class="col-sm-4">
-          <h4>IRL Address</h4>
-          <div class="row"><strong>G-313, Sector 63, Noida, UP, India</strong></div>
-          <p>If you're lost nearby, drop in for a coffee anytime</p>
+          <div class="content-block">
+            <h4>IRL Address</h4>
+            <div class="text">
+              <div class="row"><strong>G-313, Sector 63, Noida, UP, India</strong></div>
+              <p>If you're lost nearby, drop in for a coffee anytime</p>
+            </div>
+          </div>
         </div>
         <div class="col-sm-12">
           <p>&copy; {{ site.author.name }} {{ site.time | date: '%Y' }}</p>
