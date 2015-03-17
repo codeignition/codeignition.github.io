@@ -36,3 +36,13 @@ hr {
   box-shadow:none;
   color:#97C0E3;
 }
+
+.client-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.client-image-height {
+  height: 45px;
+}
