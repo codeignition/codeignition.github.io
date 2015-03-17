@@ -1,6 +1,8 @@
 ---
 layout: default
-title: CodeIgnition
+title: ABOUT
+group: navigation
+weight: 1
 theme :
   name : bootstrap-3
 ---

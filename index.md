@@ -1,6 +1,8 @@
 ---
 layout: default
-title: CodeIgnition
+title: HOME
+group: navigation
+weight: 0
 ---
 {% include JB/setup %}
 
