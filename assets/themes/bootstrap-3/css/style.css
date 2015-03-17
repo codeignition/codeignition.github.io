@@ -51,7 +51,11 @@ hr {
   color: #FFFFFF;
 }
 
-
+.navbar .nav > .active > a {
+  background:none;
+  box-shadow:none;
+  color:#97C0E3;
+}
 
 /* posts index */
 .post > h3.title {
