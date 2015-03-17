@@ -8,7 +8,7 @@ theme :
 ---
 {% include JB/setup %}
 
-<h1>Our Clients</h1>
+<h1 class="purple">"handcrafted code for smart applications"</h1>
 <hr/>
 <div class="content-block">
   <div class="row text">

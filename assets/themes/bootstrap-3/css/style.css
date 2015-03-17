@@ -1,5 +1,15 @@
 body {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+  font-size:36pt;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 hr {
