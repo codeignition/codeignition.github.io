@@ -63,8 +63,8 @@ theme :
 <hr/>
 <div class="content-block">
   <p class="text">
-    <a href="">More about Us</a>
+    <a href="http://codeignition.co/clients.html">Our clients</a>
     |
-    <a href="">What we do</a>
+    <a href="http://codeignition.co/services.html">What we do</a>
   </p>
 </div>
