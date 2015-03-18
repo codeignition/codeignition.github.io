@@ -33,6 +33,7 @@ theme :
     <p>We believe in supporting the start-up community and we try to do whatever we can to help out in our own little ways.<p>
     <p>So if you are just starting out but don't have an office to call your own, we can help.</p>
     <p>We have 5 desk spaces open, and just like our Wi-Fi, pantry & utilities, they are all <b>on the house.</b> Yes, really.</p>
+    <br/>
     <p>Write to us at <b><a href="mailto:workspaces@codeignition.co">workspaces@codeignition.co</a></b> and we will get back to you.</p>
     <br/>
   </p>
