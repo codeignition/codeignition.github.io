@@ -28,16 +28,12 @@ theme :
     <div role="tabpanel" class="tab-pane" id="webapp">
       <div class="content-block">
         <div class="text">
-          <p>As the DevOps people, we love nothing more than disrupting tradional deployments and creating fast, scalable, production-ready software & infrastructure automation for fast moving businesses.</p>
-          <p>Whatever the stage of your company’s life-cycle, we can step in to manage your infrastructure or application environment so you can focus on your products and your customers.</p>
         </div>
       </div>
     </div>
     <div role="tabpanel" class="tab-pane" id="mobileapp">
       <div class="content-block">
         <div class="text">
-          <p>As the DevOps people, we love nothing more than disrupting tradional deployments and creating fast, scalable, production-ready software & infrastructure automation for fast moving businesses.</p>
-          <p>Whatever the stage of your company’s life-cycle, we can step in to manage your infrastructure or application environment so you can focus on your products and your customers.</p>
         </div>
       </div>
     </div>
@@ -62,9 +58,54 @@ theme :
 </div>
 <hr/>
 <div class="content-block">
+  <h1 class="purple">DevOps Expertise</h1>
+  <p class="text">We engage with our clients in both the pre & post milestone stages. This way we can not only devise & deploy our customized solutions, but also manage and sustain the IT operations that follow.</p>
+  <p class="text">But we retain the flexibility to do only dev if the operations setup is in place, or only ops if bulk of the development is done.</p>
+  <div role="tabpanel">
+    <ul class="nav nav-pills nav-justified" role="tablist">
+      <li role="presentation" class="active"><a href="#managed" aria-controls="managed service" role="tab" data-toggle="tab">MANAGED SERVICES</a></li>
+      <li role="presentation"><a href="#consulting" aria-controls="consulting service" role="tab" data-toggle="tab">CONSULTING SERVICES</a></li>
+    </ul>
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="managed">
+        <div class="content-block">
+          <div class="text">
+            <p>Our Managed Services follow the retainer model, where we take care of your entire IT operations – lock, stock & barrel.</p>
+            <p>Our managed services are split in 3 convenient plans for our clients to pick & choose from:</p>
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="consulting">
+        <div class="content-block">
+          <div class="text">
+            <p>We consult on an as-needed or project basis, whether they be for training, support or delivery.</p>
+            <p>We can plug in anytime to identify and resolve both strategic & tactical issues that deal with Infrastructure, DevOps & Continuous Delivery.</p>
+          </div>
+          <p class="text">We undertake consulting projects for:</p>
+          <strong>
+            <div class="row text">
+              <div class="col-md-4">AUDIT & ANALYSIS</div>
+              <div class="col-md-4">DELIVERY</div>
+              <div class="col-md-4">TRAINING & WORKSHOPS</div>
+            </div>
+            <div class="row text">
+              <div class="col-md-5 col-md-offset-1">ONSITE & OFFSITE SUPPORT</div>
+              <div class="col-md-5">OPERATIONS & MANAGEMENT</div>
+            </div>
+          </strong>
+          <p class="text">We charge by the hour & we try to be as cost effective as possible.</p>
+          <p class="text">Not sure which model is best for you? <a href="/contact.html">Get in touch</a> & we will sort it out.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr/>
+<div class="content-block">
   <p class="text">
     <a href="/clients.html">Our clients</a>
     |
     <a href="/contact.html">Contact us</a>
   </p>
 </div>
+
