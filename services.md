@@ -73,7 +73,7 @@ theme :
             <p>Our Managed Services follow the retainer model, where we take care of your entire IT operations – lock, stock & barrel.</p>
             <p>Our managed services are split in 3 convenient plans for our clients to pick & choose from:</p>
           </div>
-          <table class="table table-responsive">
+          <table class="table services-table">
             <thead>
               <tr>
                 <th>FEATURE</th>
