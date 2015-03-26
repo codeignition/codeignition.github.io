@@ -45,9 +45,26 @@ theme :
 </div>
 <hr/>
 <div class="content-block">
+  <h1 class="purple">DevOps Expertise</h1>
+  <p class="text">When it comes to looking after your infrastructure & Applications environments, we kick ass at it:</p>
+  <strong>
+    <div class="row">
+      <div class="col-md-3">CONFIGURATION</div>
+      <div class="col-md-3">AUTOMATION</div>
+      <div class="col-md-3">AUTO-SCALING</div>
+      <div class="col-md-3">BACKUP & DISASTER RECOVERY</div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-md-offset-3">MONITORING & ALERTING</div>
+      <div class="col-md-3">OPERATIONS & MANAGEMENT</div>
+    </div>
+  </strong>
+</div>
+<hr/>
+<div class="content-block">
   <p class="text">
-    <a href="http://codeignition.co/clients.html">Our clients</a>
+    <a href="/clients.html">Our clients</a>
     |
-    <a href="http://codeignition.co/contact.html">Contact us</a>
+    <a href="/contact.html">Contact us</a>
   </p>
 </div>
