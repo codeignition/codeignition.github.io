@@ -73,6 +73,90 @@ theme :
             <p>Our Managed Services follow the retainer model, where we take care of your entire IT operations – lock, stock & barrel.</p>
             <p>Our managed services are split in 3 convenient plans for our clients to pick & choose from:</p>
           </div>
+          <table class="table table-responsive">
+            <thead>
+              <tr>
+                <th>FEATURE</th>
+                <th>LUNAR</th>
+                <th>SOLAR</th>
+                <th>STELLAR</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monthly Retainer</td>
+                <td>$0</td>
+                <td>$2,000</td>
+                <td>$5,000</td>
+              </tr>
+              <tr>
+                <td>One-time Setup (CD Pipeline for Apps)</td>
+                <td>$3,000</td>
+                <td>$1,000</td>
+                <td>Included in Retainer</td>
+              </tr>
+              <tr>
+                <td>Monthly Fee Per Unit App/Server</td>
+                <td>$400</td>
+                <td>$200</td>
+                <td>$50</td>
+              </tr>
+              <tr>
+                <td>Minimum Servers or Instances</td>
+                <td>0</td>
+                <td>25</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Remote Support (Hours per Days per Week)</td>
+                <td>8/5</td>
+                <td>10/7</td>
+                <td>24/7</td>
+              </tr>
+              <tr>
+                <td>Infrastructure Services (‘+’ means inclusion of previous plan’s services)</td>
+                <td>Monitoring</td>
+                <td>+ Server Updates</td>
+                <td>++ Zero Downtime</td>
+              </tr>
+              <tr>
+                <td>VPN (OpenVPN/IPSec with client and P2P support for one site)</td>
+                <td>$1,000</td>
+                <td>$1,000</td>
+                <td>Included in Retainer</td>
+              </tr>
+              <tr>
+                <td>One Button Deployment (Free CI Server Setup included for all packages)</td>
+                <td>$500/app</td>
+                <td>$400/app</td>
+                <td>Included in Retainer</td>
+              </tr>
+              <tr>
+                <td>Multiple Environment Support</td>
+                <td>NA</td>
+                <td>$400/environment</td>
+                <td>Included in Retainer</td>
+              </tr>
+              <tr>
+                <td>Backup Configuration</td>
+                <td>$50</td>
+                <td>$50</td>
+                <td>Included in Retainer</td>
+              </tr>
+              <tr>
+                <td>Backup & Restore</td>
+                <td>NA</td>
+                <td>$100/hour</td>
+                <td>Included in Retainer</td>
+              </tr>
+              <tr>
+                <td>Additional On-Call Support</td>
+                <td>NA</td>
+                <td>$100/incident</td>
+                <td>Included in Retainer</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
       <div role="tabpanel" class="tab-pane" id="consulting">
@@ -108,4 +192,3 @@ theme :
     <a href="/contact.html">Contact us</a>
   </p>
 </div>
-
