@@ -58,7 +58,7 @@ theme :
 </div>
 <hr/>
 <div class="content-block">
-  <h1 class="purple">DevOps Expertise</h1>
+  <h1 class="purple">DevOps Enagagement</h1>
   <p class="text">We engage with our clients in both the pre & post milestone stages. This way we can not only devise & deploy our customized solutions, but also manage and sustain the IT operations that follow.</p>
   <p class="text">But we retain the flexibility to do only dev if the operations setup is in place, or only ops if bulk of the development is done.</p>
 </div>
