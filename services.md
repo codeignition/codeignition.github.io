@@ -11,10 +11,10 @@ theme :
 <h1>Our Services</h1>
 <hr/>
 <div role="tabpanel">
-  <ul class="nav nav-pills nav-justified" role="tablist">
-    <li role="presentation" class="active"><a href="#devops" aria-controls="devops" role="tab" data-toggle="tab">DEVOPS</a></li>
-    <li role="presentation"><a href="#webapp" aria-controls="webapp" role="tab" data-toggle="tab">WEB APPS</a></li>
-    <li role="presentation"><a href="#mobileapp" aria-controls="mobileapp" role="tab" data-toggle="tab">MOBLIE APPS</a></li>
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active col-md-2 col-md-offset-3"><a href="#devops" aria-controls="devops" role="tab" data-toggle="tab" class="col-md-12">DEVOPS</a></li>
+    <li role="presentation" class="col-md-2"><a href="#webapp" aria-controls="webapp" role="tab" data-toggle="tab">WEB APPS</a></li>
+    <li role="presentation" class="col-md-2"><a href="#mobileapp" aria-controls="mobileapp" role="tab" data-toggle="tab">MOBLIE APPS</a></li>
   </ul>
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="devops">
@@ -63,9 +63,9 @@ theme :
   <p class="text">But we retain the flexibility to do only dev if the operations setup is in place, or only ops if bulk of the development is done.</p>
 </div>
 <div role="tabpanel">
-  <ul class="nav nav-pills nav-justified" role="tablist">
-    <li role="presentation" class="active"><a href="#managed" aria-controls="managed service" role="tab" data-toggle="tab">MANAGED SERVICES</a></li>
-    <li role="presentation"><a href="#consulting" aria-controls="consulting service" role="tab" data-toggle="tab">CONSULTING SERVICES</a></li>
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active col-md-3 col-md-offset-3"><a href="#managed" aria-controls="managed service" role="tab" data-toggle="tab">MANAGED SERVICES</a></li>
+    <li role="presentation" class="col-md-3"><a href="#consulting" aria-controls="consulting service" role="tab" data-toggle="tab">CONSULTING SERVICES</a></li>
   </ul>
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="managed">
