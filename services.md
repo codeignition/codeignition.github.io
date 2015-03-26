@@ -159,6 +159,9 @@ theme :
           </tr>
         </tbody>
       </table>
+      <div class="content-block">
+        <p class="text">Not sure which plan is best for you? <a href="/contact.html">Get in touch</a> & we will sort it out.</p>
+      </div>
     </div>
     <div role="tabpanel" class="tab-pane" id="consulting">
       <div class="content-block">
