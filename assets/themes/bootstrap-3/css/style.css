@@ -59,22 +59,27 @@ hr {
 
 .services-table th {
   text-align: center;
+  color: #7F8F8E;
   background-color: #EEF3F6;
 }
 
 .services-table th + th {
+  color: #FFFFFD;
   background-color: #BDC2C8;
 }
 
 .services-table th + th + th {
+  color: #FFFFFD;
   background-color: #F0C514;
 }
 
 .services-table th + th + th + th {
+  color: #FFFFFD;
   background-color: #34495E;
 }
 
 .services-table tr {
+  color: #7F8F8E;
   border-top:0px;
 }
 
@@ -84,7 +89,6 @@ hr {
 
 .services-table td {
   border-right: 1px solid #ddd;
-  text-align: right;
 }
 
 .services-table td:last-child {
