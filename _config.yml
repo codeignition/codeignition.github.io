@@ -92,17 +92,17 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
-  #        
+  #
   analytics :
-    provider : google 
-    google : 
-        tracking_id : 'UA-123-12'
+    provider : google
+    google :
+        tracking_id : 'UA-51540710-1'
     getclicky :
-      site_id : 
+      site_id :
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
     piwik :
