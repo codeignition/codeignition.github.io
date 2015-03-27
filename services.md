@@ -13,8 +13,7 @@ theme :
 <div role="tabpanel">
   <ul class="nav nav-pills" role="tablist">
     <li role="presentation" class="active col-md-2 col-md-offset-3"><a href="#devops" aria-controls="devops" role="tab" data-toggle="tab" class="col-md-12">DEVOPS</a></li>
-    <li role="presentation" class="col-md-2"><a href="#webapp" aria-controls="webapp" role="tab" data-toggle="tab">WEB APPS</a></li>
-    <li role="presentation" class="col-md-2"><a href="#mobileapp" aria-controls="mobileapp" role="tab" data-toggle="tab">MOBLIE APPS</a></li>
+    <li role="presentation" class="col-md-2"><a href="#webapp" aria-controls="webapp" role="tab" data-toggle="tab">WEB & MOBILE APPS</a></li>
   </ul>
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="devops">
@@ -28,12 +27,8 @@ theme :
     <div role="tabpanel" class="tab-pane" id="webapp">
       <div class="content-block">
         <div class="text">
-        </div>
-      </div>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="mobileapp">
-      <div class="content-block">
-        <div class="text">
+          <p>The right solution isn't always the complicated one. Sometimes all a client needs is a sweet & simple web or mobile app to do the trick.</p>
+          <p>And we know how to perform such tricks all too well.</p>
         </div>
       </div>
     </div>
