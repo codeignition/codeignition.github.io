@@ -5,7 +5,7 @@ group: navigation
 weight: 0
 ---
 {% include JB/setup %}
-
+<title>CodeIgnition - The DevOps People</title>
 <h1 class="purple">"Smart Applications Deserve Smart Infrastructure."</h1>
 <hr>
 <div class="content-block">
