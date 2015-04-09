@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CodeIgnition - The DevOps People
+title: HOME
 group: navigation
 weight: 0
 ---
