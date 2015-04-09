@@ -5,6 +5,7 @@ group: navigation
 weight: 0
 ---
 {% include JB/setup %}
+<meta name="google-site-verification" content="duaRSSvHNKckC6qgazyDrKXZ_eK42dU9ar4s6dkp3Kg" />
 <title>CodeIgnition - The DevOps People</title>
 <h1 class="purple">"Smart Applications Deserve Smart Infrastructure."</h1>
 <hr>
