@@ -3,6 +3,7 @@ layout: post
 title: "Hello World"
 description: "blah blah"
 tags: ['hello','world']
+author: shobhit
 ---
 {% include JB/setup %}
 
