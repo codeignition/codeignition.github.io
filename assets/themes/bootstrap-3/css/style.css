@@ -1,4 +1,9 @@
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
@@ -29,6 +34,20 @@ hr {
 
 .content-block .text {
   margin: 3%;
+}
+
+#wrap {
+  min-height: 100%;
+  margin-bottom: -160px;
+}
+
+#wrap:after {
+  content: "";
+  display: block;
+}
+
+#footer, #wrap:after {
+  height: 165px;
 }
 
 #footer {
