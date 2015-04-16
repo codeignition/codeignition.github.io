@@ -94,3 +94,5 @@ hr {
 .services-table td:last-child {
   border-right: 0px;
 }
+
+ol { list-style-type: upper-alpha; }
