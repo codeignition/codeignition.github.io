@@ -11,9 +11,9 @@ If you have ever used any cloud service, then chances are pretty good that it wa
 But all that comes at a cost, which companies realize soon enough. Because when you grow, your EC2 bill grows with you. I had already heard stories of large bills before experiencing this myself. And when it happened to me, it made me stop and ask some questions.
 
 What are your options when the AWS EC2 bills start growing too much, too fast? Do you: 
-a.	Move to another cloud service?
-a.	Move to DataCenters? 
-a.	Raise the money to pay the bills anyway?
+1. Move to another cloud service?
+1. Move to DataCenters? 
+1. Raise the money to pay the bills anyway?
 
 Or do you find a way that both saves money & makes managing it easy? By introducing Spot Instances into the mix and deploying Auto-Scaling, you can do just that.
 
