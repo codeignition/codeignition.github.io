@@ -2,7 +2,7 @@
 layout: default
 title: CONTACT US
 group: navigation
-weight: 5
+weight: 7
 theme :
   name : bootstrap-3
 ---
