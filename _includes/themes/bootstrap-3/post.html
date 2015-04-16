@@ -20,13 +20,11 @@
   {% endunless %}  
 
   {% unless page.tags == empty %}
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-tags"></i></li>
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  
-  
+    {% for tag in page.tags %}
+      <a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref"><span class="badge">{{ tag }} ({{ site.tags[tag].size }})</span></a>
+    {% endfor %}
+  {% endunless %}
+
     <hr>
     <ul class="pagination">
     {% if page.previous %}
