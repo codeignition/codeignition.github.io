@@ -27,6 +27,8 @@ The only difference is
 
 * **Pricing**
 
+  <div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="aws spot pricing trend" src="/assets/blogs/spot-instance.jpg"></div></div>
+
   On an average these prices can be 1/8th or 1/10th of normal instances, and the variation is totally dependent on market demand where AWS users place bids.
   It works like any other auction market, in that AWS sets a base price and users put forth bids at prices higher that the base price.
   The market value varies acording to supply and demand.
