@@ -21,6 +21,13 @@ hr {
   margin: 6%;
 }
 
+.post-content {
+  text-align: left;
+}
+
+.post-header {
+}
+
 .purple {
   color: #945CA5;
 }

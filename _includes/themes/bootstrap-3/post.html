@@ -1,4 +1,4 @@
-<div class="page-header">
+<div class="page-header post-header">
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
   <div>{{site.data.people[page.author].name}}</div>
 </div>
@@ -9,7 +9,7 @@
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
-    <div class="content">
+    <div class="post-content content">
       {{ content }}
     </div>
 
