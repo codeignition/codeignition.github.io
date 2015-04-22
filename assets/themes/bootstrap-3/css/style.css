@@ -26,6 +26,11 @@ hr {
 }
 
 .post-header {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.post-header h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .purple {
