@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ABOUT
+nav-name: ABOUT
 group: navigation
 weight: 1
 theme :

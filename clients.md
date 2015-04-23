@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CLIENTS
+nav-name: CLIENTS
 group: navigation
 weight: 3
 theme :

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HOME
+nav-name: HOME
 group: navigation
 weight: 0
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CONTACT US
+nav-name: CONTACT US
 group: navigation
 weight: 7
 theme :

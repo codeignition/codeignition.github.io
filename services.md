@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SERVICES
+nav-name: SERVICES
 group: navigation
 weight: 2
 theme :
