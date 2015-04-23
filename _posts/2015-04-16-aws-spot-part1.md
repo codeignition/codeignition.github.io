@@ -64,9 +64,9 @@ Market price is influenced by many factors.Lets discuss a few of them
     The spot instance for User 2 and 3 will get terminated as they have lower bids and market price will be Rs 4.
 
 The user can try to be smart and bid a very high amount for an instance type so that their spot instances do not get terminated.
-There was one time when a sudden spike in the price of “m2.2xlarge” servers (normally $.44/hour) drove the price briefly up to $999/hour, causing a site-wise outage. 
+There was one time when a sudden spike in the price of “m2.2xlarge” servers (normally $0.560/hour) drove the price briefly up to $999/hour, causing a site-wise outage for some customers. 
 It was probably worse news for the unlucky customers who ended up paying $999 for one hour of compute time!. Now AWS has put an upper cap to bid price. It should not increase 
-4*price for normal instance in this case 4*$0.44=$1.76.
+4 times (price for normal instance) in this case 4 times $0.560=$2.24
 
 So as we can see;using spot instances we get ec2 instances at a very less price comapred to normal ec2 instances but the problem is that they can terminated at moments' notice.
 These are the termination policies exercised by AWS, and they are the reason why a lot of people don’t opt for Spot Instances in their mix.
