@@ -63,6 +63,19 @@ Market price is influenced by many factors.Lets discuss a few of them
     Now in the example above  if the spot pool decrease and we are left with 3 instance.
     The spot instance for User 2 and 3 will get terminated as they have lower bids and market price will be Rs 4.
 
-So these are the termination policies exercised by AWS, and they are the reason why a lot of people don’t opt for Spot Instances in their mix.
+The user can try to be smart and bid a very high amount for an instance type so that their spot instances do not get terminated.
+There was one time when a sudden spike in the price of “m2.2xlarge” servers (normally $.44/hour) drove the price briefly up to $999/hour, causing a site-wise outage. 
+It was probably worse news for the unlucky customers who ended up paying $999 for one hour of compute time!. Now AWS has put an upper cap to bid price. It should not increase 
+4*price for normal instance in this case 4*$0.44=$1.76.
+
+So as we can see;using spot instances we get ec2 instances at a very less price comapred to normal ec2 instances but the problem is that they can terminated at moments' notice.
+These are the termination policies exercised by AWS, and they are the reason why a lot of people don’t opt for Spot Instances in their mix.
+
+Now that we have a basic idea of how spot instance work in our next blog we will show how we can use another feature of AWS 
+
+* **Autoscaling groups**
+* **Autoscaling launch configuration**
+
+with spot instances to effectivelty use the spot instances to create low cost self healing infrastructure.
 
 *Continued in part 2*
