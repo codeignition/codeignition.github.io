@@ -99,15 +99,35 @@ theme :
           <p>And we know how to perform such tricks all too well.</p>
         </div>
       </div>
+      <hr/>
+      <div class="content-block">
+      <h1 class="purple">Apps Expertise</h1>
+        <p class="text">We do it often, and we do it very well. We can design & develop:</p>
+        <strong>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-2">RAILS, NODE.JS & GO WEB APPS</div>
+            <div class="col-md-4">ANGULAR & POLYMER WEB APPS</div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-2">iOS APPLICATIONS</div>
+            <div class="col-md-4">ANDROID APPLICATIONS</div>
+          </div>
+        </strong>
+      </div>
+      <hr/>
+      <div class="content-block">
+        <h1 class="purple">Apps Enagagement</h1>
+        <p class="text">Flexibilty is key, as we engage with our clients at any stage of their product or company's life-cycle.</p>
+        <p class="text">We can engage with out clients using a time & material model for evolving projects or a fixed model when the project is well defined. Or something in between, because things aren't always black & white.</p>
+      </div>
     </div>
   </div>
 </div>
-
 <hr/>
 <div class="content-block">
   <p class="text">
     <a href="/clients.html">Our clients</a>
     |
-    <a href="/contact.html">Contact us</a>
+    <a href="/people/">Our Team</a>
   </p>
 </div>
