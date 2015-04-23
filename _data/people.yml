@@ -1,22 +1,27 @@
 shobhit:
   name: Shobhit Srivastava
   position: Partner | BD
+  email: shobhit@codeignition.co
   github: SinisterLight
   twitter: Sinister_Light
   linkedin: sinisterlight
   image: /assets/people/shobhit-srivastava.jpg
+  website: www.sinisterlight.com
 
 ajey:
   name: Ajey Gore
   position: Partner | CEO
+  email: ajey@codeignition.co
   github: ajeygore
   twitter: ajeygore
   linkedin: ajeygore
   image: /assets/people/ajey-gore.jpg
+  website: www.ajeygore.in
 
 vipul:
   name: Vipul Sharma
   position: DevOps | Laziness
+  email: vipul@codeignition.co
   github: sharmavipul
   twitter: _sharmavipul
   linkedin: fdgod

@@ -27,6 +27,9 @@ hr {
           border-radius: 0 !important;
 }
 
+.left   { text-align: left; }
+.center { text-align: center; }
+
 .post-content {
   text-align: left;
 }

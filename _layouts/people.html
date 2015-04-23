@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% include JB/setup %}
+<div class="page-header">
+  <h1>{{site.data.people[page.person].name}}</h1>
+</div>
+
+<div class="row">
+  <div class="col-xs-3" style="font-size:14pt;">
+    <img src="{{site.data.people[page.person].image}}" class="img-circle img-responsive" alt="{{site.data.people[page.person].name}}"><br/>
+    <div class="row">{{site.data.people[page.person].position}}</div><br/>
+    <div class="row">
+      <a href="mailto:{{site.data.people[page.person].email}}" target="_blank">
+        <i class="fa fa-1x fa-envelope-o"></i> {{site.data.people[page.person].email}}
+      </a>
+    </div>
+    <div class="row">
+      <a href="https://github.com/{{site.data.people[page.person].github}}" target="_blank">
+        <i class="fa fa-1x fa-github"></i> /{{site.data.people[page.person].github}}
+      </a>
+    </div>
+    <div class="row">
+      <a href="https://twitter.com/{{site.data.people[page.person].twitter}}" target = "_blank">
+        <i class="fa fa-1x fa-twitter"></i> @{{site.data.people[page.person].twitter}}
+      </a>
+    </div>
+    <div class="row">
+      <a href="http://{{site.data.people[page.person].website}}" target = "_blank">
+        <i class="fa fa-1x fa-globe"></i> {{site.data.people[page.person].website}}
+      </a>
+    </div>
+  </div>
+  <div class="col-xs-9 left">
+    {{ content }}
+  </div>
+</div>
+<hr/>
+
+<div class="content-block">
+  <p class="text">
+    <a href="/about.html">More About Us</a>
+    |
+    <a href="/services.html">What We Do</a>
+  </p>
+</div>
