@@ -21,6 +21,12 @@ hr {
   margin: 6%;
 }
 
+.navbar, .navbar-default {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
 .post-content {
   text-align: left;
 }
