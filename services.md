@@ -2,6 +2,7 @@
 layout: default
 nav-name: SERVICES
 group: navigation
+title: DevOps & Apps
 weight: 2
 theme :
   name : bootstrap-3
