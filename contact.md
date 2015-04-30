@@ -2,6 +2,8 @@
 layout: default
 nav-name: CONTACT US
 group: navigation
+title: Contact CodeIgnition
+description: Get in touch for DevOps projects and jobs. We love supporting the start-up community and offer free work-spaces for entrepreneurs & start-ups.
 weight: 7
 theme :
   name : bootstrap-3
