@@ -2,6 +2,8 @@
 layout: default
 nav-name: CLIENTS
 group: navigation
+title: Client Portfolio of CodeIgnition
+description: We love working with start-ups and fast moving businesses, and have worked with a wide array of clients such as Grasshopper UK & US, Blueshift Labs, Vogogo, Flipsicle, Avanti, Akiin, Embibe & TicTalking.
 weight: 3
 theme :
   name : bootstrap-3
