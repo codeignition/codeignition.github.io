@@ -2,7 +2,7 @@
 layout: post
 title: "Case Study: Blueshift Labs"
 description: "How we empowered a big data powered start-up using Hadoop, AWS, Chef & Automation"
-tags: ['hadoop’,’aws’,’chef’,’big data’,’automation’,’auto-scaling’,’spot instances’,’blueshift’,’case study’,’infrastructure’]
+tags: [hadoop,aws,chef,big data,automation,auto-scaling,spot instances,blueshift,case study,infrastructure]
 author: sanat
 ---
 {% include JB/setup %}
@@ -38,4 +38,4 @@ Blueshift approached us at CodeIgnition 8 months ago with these challenges. Havi
 * Reduced deployment time. When accommodating request spikes in the past, it used to take anywhere between 30 to 40 minutes to setup a new instance. We have now reduced that time to less than 5 minutes using automation & auto-scaling.
 * Cost effective growth. By introducing Spot instances into the mix, we were able to reduce monthly AWS bills to a tenth of original costs. Growing big data requirements has meant increase in capacity and usage, but the cost increase has been contained within budgets.
 
-Related Post: <a href="http://codeignition.co/blog/2015/04/16/aws-spot-part1/" target="_blank">How to Create a Low Cost, Self-Healing & Immutable Infrastructure using AWS EC2 Spot Instances</a>
+Related Post: <a href="/blog/2015/04/16/aws-spot-part1/" target="_blank">How to Create a Low Cost, Self-Healing & Immutable Infrastructure using AWS EC2 Spot Instances</a>
