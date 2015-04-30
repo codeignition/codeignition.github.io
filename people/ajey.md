@@ -1,5 +1,7 @@
 ---
 layout: people
+title: Ajey Gore @ CodeIgnition
+description: With more than 16 years of experience in core technology strategy, research & development and consulting, Ajey founded CodeIgnition in 2013 where he today serves as CEO & principal technology consultant.
 person: ajey
 ---
 
