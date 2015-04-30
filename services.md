@@ -2,7 +2,7 @@
 layout: default
 nav-name: SERVICES
 group: navigation
-title: Services Portfolio of The DevOps People: CodeIgnition
+title: Services Portfolio of CodeIgnition
 weight: 2
 theme :
   name : bootstrap-3
