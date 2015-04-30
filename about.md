@@ -2,6 +2,8 @@
 layout: default
 nav-name: ABOUT
 group: navigation
+title: About CodeIgnition
+description: With the belief that every product needs a strong & scalable technology core, since 2013 CodeIgnition has used Continuous Delivery & Integration and Agile & Lean Development to strengthen Codebases & Infrastructures for clients around the world.
 weight: 1
 theme :
   name : bootstrap-3
