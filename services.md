@@ -3,6 +3,7 @@ layout: default
 nav-name: SERVICES
 group: navigation
 title: Services Portfolio of CodeIgnition
+description: We love creating fast, scalable, production-ready software & infrastructure automation as well as develop fast web & mobile apps. Our DevOps expertise includes Automation & Auto-scaling, Configuration & Operations Management, Backup & Disaster Recovery, and Monitoring. We can manage your entire IT operations or consult on an as needed basis. We also develop iOS & Android apps as well as Rails, Node, Go, Angular & Polymer web applications.
 weight: 2
 theme :
   name : bootstrap-3
