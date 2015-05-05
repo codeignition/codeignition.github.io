@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting started with puppet"
+title: "Getting started with puppet using vagrant"
 description: ""
 tags: []
 author: shobhit
@@ -29,3 +29,21 @@ Now start this VM by
 ```
 vagrant up
 ```
+
+Now our server is up and running. Lets set-up Puppet master
+login to the server
+
+```
+vagrant ssh
+```
+
+Now install puppet
+
+```
+wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
+sudo dpkg -i puppetlabs-release-trusty.deb
+sudo apt-get update
+sudo apt-get install puppetmaster-passenger -y
+```
+
+to test
