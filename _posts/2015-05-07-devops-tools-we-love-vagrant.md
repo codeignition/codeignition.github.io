@@ -2,8 +2,8 @@
 layout: post
 title: "DevOps tools we love: Vagrant"
 description: ""
-category: 
-tags: []
+tags: [devops,vagrant,infrastructure]
+author: shobhit
 ---
 {% include JB/setup %}
 
