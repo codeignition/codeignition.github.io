@@ -65,7 +65,7 @@ theme :
   </div>
   <div class="row text">
     <div class="col-md-12">
-      <div class="col-md-4 col-md-offset-2">
+      <div class="col-md-4">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 client-image-height"><img alt="akiin" class="img-responsive client-image" src="{{ ASSET_PATH }}/images/aqqin_headlogofull_2x.png"></div>
         </div>
@@ -78,6 +78,13 @@ theme :
         </div>
         <h4>FLIPSICLE</h4>
         <p>Developed Entire Backend, & iOS apps for Flipsicle - a suite for social sharing apps</p>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 client-image-height"><img alt="mera doctor" class="img-responsive client-image client-image-height" src="{{ ASSET_PATH }}/images/mera-doctor.png"></div>
+        </div>
+        <h4>MERA DOCTOR</h4>
+        <p>Developed MeraDoctor Messaging Application backend and MeraDoctor Mobile App</p>
       </div>
     </div>
   </div>
