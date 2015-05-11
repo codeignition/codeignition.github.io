@@ -89,7 +89,7 @@ hr {
   margin-bottom: 20px;
 }
 .client-image-height {
-  height: 45px;
+  max-height: 45px;
 }
 
 .services-table tbody tr td, .services-table thead tr th {
