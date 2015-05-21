@@ -78,4 +78,5 @@ Now that we have a basic idea of how spot instance work in our next blog we will
 
 with spot instances to effectivelty use the spot instances to create low cost self healing infrastructure.
 
-*Continued in part 2*
+*<a href="http://codeignition.co/blog/2015/05/14/aws-spot-part2/" title="How to Create a Low Cost, Self-Healing & Immutable Infrastructure using AWS EC2 Spot Instances [Part 2]">
+Continued in part 2</a>*

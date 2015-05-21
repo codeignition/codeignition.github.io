@@ -7,6 +7,20 @@ author: vipul
 ---
 {% include JB/setup %}
 
+*<a href="http://codeignition.co/blog/2015/04/16/aws-spot-part1/" title="How to Create a Low Cost, Self-Healing & Immutable Infrastructure using AWS EC2 Spot Instances [Part 1]">
+Continued from part 1</a>*
+
+In our last blog we discussed about Pricing and Termination Policies of the AWS spot instances. We also discussed the factors affecting the pricing and the termination policies and how we can incorporate
+AWS spot instances in our infrastructure. To create a self healing infrastructure and counter the unwanted infrastructure changes by terminations 
+of AWS spot instances, we will now introduce another feature of AWS
+
+**Autoscaling**
+
+There are two components of Autoscaling
+
+* **Autoscaling launch configuration**
+* **Autoscaling groups**
+
 **Autoscaling Launch Configuration**
 
 Autoscaling launch config are essentials scripts to create an ec2 instance with fixed set of attributes and properties. Acording to AWS
