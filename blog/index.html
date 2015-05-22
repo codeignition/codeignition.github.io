@@ -12,15 +12,15 @@ theme :
 {% include JB/setup %}
 
 <div class="container-fluid">
-{% for post in site.posts %}
-<div class="content-block">
-  <div class="text">
-    <h4>{{ post.date |  date: '%B %d, %Y' }}</h4></div>
-    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-    {{ post.content | strip_html | truncatewords:75}}<br>
-    <a href="{{ post.url }}">Read more...</a><br><br>
-  </div>
-</div>
-<hr>
-{% endfor %}
+  {% for post in site.posts %}
+    <div class="content-block">
+      <div class="text">
+        <h4>{{ post.date |  date: '%B %d, %Y' }}</h4>
+        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+          {{ post.content | strip_html | truncatewords:75}}<br>
+        <a href="{{ post.url }}">Read more...</a><br><br>
+      </div>
+    </div>
+    <hr>
+  {% endfor %}
 </div>
