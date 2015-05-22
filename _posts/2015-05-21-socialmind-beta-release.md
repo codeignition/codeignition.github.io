@@ -14,7 +14,7 @@ Developed here at CodeIgnition, SocialMind is an open-source tool & anyone can u
 
 SocialMind's beta version has Twitter integration. Any Twitter user can sign in to their account, approve the SocialMind app & share that account with other Twitter users.
 
-If you are part of a media or brand team, or a group of collaborators from a common Twitter account, then you should try <a href=”socialmind.in” target=”_blank”>SocialMind</a>.
+If you are part of a media or brand team, or a group of collaborators from a common Twitter account, then you should try <a href="socialmind.in" target="_blank">SocialMind</a>.
 
 Some of the features the beta release contains:
 
