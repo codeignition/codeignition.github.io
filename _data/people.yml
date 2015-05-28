@@ -27,6 +27,16 @@ vipul:
   linkedin: fdgod
   image: /assets/people/vipul-sharma.jpg
 
+mehak:
+  name: Mehakdeep Singh
+  position: Partner | Delivery
+  email: mehak@codeignition.co
+  github: mehakdeep
+  twitter: mehakkahlon
+  linkedin: mehakkahlon
+  image: /assets/people/mehakdeep-singh.jpg
+  website: www.mehakkahlon.com
+
 sanat:
   name: Sanat Thite
   position: UX
