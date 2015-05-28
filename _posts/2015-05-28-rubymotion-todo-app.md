@@ -44,7 +44,7 @@ If you’re completely new to RubyMotion, a very good place to start is by compl
 * <a href="http://www.RubyMotion.com/developers/guides/manuals/cocoa/getting-started/">getting-started</a>
 * <a href="http://RubyMotion-tutorial.com/1-hello-motion">hello-motion</a>
 
-<div class="row"><div class='col-md-4 col-md-offset-4'><img class="img-responsive" alt="hello-iOS" src="/assets/blogs/hello-iOS.png" style="margin: 20px 2px"></div></div>
+<div class="row"><div class='col-md-4 col-md-offset-4'><img class="img-responsive" alt="hello-iOS" src="/assets/blogs/hello-ios.png" style="margin: 20px 2px"></div></div>
 
 Once you go through these tutorials, your key takeaways should be:
 
