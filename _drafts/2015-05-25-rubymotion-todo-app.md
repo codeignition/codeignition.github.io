@@ -44,13 +44,13 @@ If you’re completely new to RubyMotion, a very good place to start is by compl
 * <a href="http://www.RubyMotion.com/developers/guides/manuals/cocoa/getting-started/">getting-started</a>
 * <a href="http://RubyMotion-tutorial.com/1-hello-motion">hello-motion</a>
 
-<div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="hello-iOS" src="/assets/blogs/hello-iOS.png" style="margin: 20px 2px"></div></div>
+<div class="row"><div class='col-md-4 col-md-offset-4'><img class="img-responsive" alt="hello-iOS" src="/assets/blogs/hello-iOS.png" style="margin: 20px 2px"></div></div>
 
 Once you go through these tutorials, your key takeaways should be:
 
 *  `rake` command is used to run app on simulator
 *  Everything that is visible on the screen is a `UIView`
-*  Views can subviews, and that can keep on going.
+*  Views can have subviews, and that can keep on going.
 *  It uses the Model-View-Controller pattern.
 
 <a name="tutorial"></a>
@@ -89,8 +89,7 @@ Change the change app_delegate to load our new controller as root view controlle
   end
 ~~~
 
-<div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="todo-0" src="/assets/blogs/todo-0.png" style="margin: 20px 2px; border:3px solid black;"></div></div>
-
+<div class="row"><div class='col-md-4 col-md-offset-4'><img class="img-responsive" alt="todo-0" src="/assets/blogs/todo-0.png" style="margin: 20px 2px; border:3px solid black;"></div></div>
 
 <a name="text_area"></a>
 
@@ -140,7 +139,7 @@ Now the listcontroller looks like
   end
 ~~~
 
-<div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="todo-1" src="/assets/blogs/todo-1.png" style="margin: 20px 2px; border:3px solid black;" border="5"></div></div>
+<div class="row"><div class='col-md-4 col-md-offset-4'><img class="img-responsive" alt="todo-1" src="/assets/blogs/todo-1.png" style="margin: 20px 2px; border:3px solid black;" border="5"></div></div>
 
 **Add Empty Table**
 
@@ -192,7 +191,7 @@ And the viewDidLoad now looks like this.
 
 
 
-<div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="todo-2" src="/assets/blogs/todo-2.png" style="margin: 20px 2px; border:3px solid black;" border="5"></div></div>
+<div class="row"><div class='col-md-4 col-md-offset-4'><img class="img-responsive" alt="todo-2" src="/assets/blogs/todo-2.png" style="margin: 20px 2px; border:3px solid black;" border="5"></div></div>
 
 **Following The MVC**
 
@@ -262,7 +261,7 @@ Select appropriate value for the table row.
 ~~~
 
 
-<div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="todo-3" src="/assets/blogs/todo-3.png" style="margin: 20px 2px; border:3px solid black;" border="5"></div></div>
+<div class="row"><div class='col-md-4 col-md-offset-4'><img class="img-responsive" alt="todo-3" src="/assets/blogs/todo-3.png" style="margin: 20px 2px; border:3px solid black;" border="5"></div></div>
 
 **Add Local Database**
 
@@ -444,7 +443,9 @@ And the mark_as_done function toggles the task between completed and pending.
 
 
 
-<div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="todo-4" src="/assets/blogs/todo-4.png" style="margin: 20px 2px; border:3px solid black;" border="5"></div></div>
+<div class="row"><div class='col-md-4 col-md-offset-4'><img class="img-responsive" alt="todo-4" src="/assets/blogs/todo-4.png" style="margin: 20px 2px; border:3px solid black;" border="5"></div></div>
+
+Here is the [Link](https://github.com/mehakdeep/todo) to the source code.
 
 
 **The End**
