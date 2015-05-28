@@ -9,13 +9,15 @@ author: Mehakdeep Singh
 
 In this post we will cover what RubyMotion is & take you through how to use it by building a simple To-Do app. It’s a longish post, so to save you some trouble here’s a simple index:
 
-Introduction
-Installation 
-Homework
-Tutorial setup
-Text area & table
-Tasks & Db
-Models & Sections
+* [Introduction](#introduction)
+* [Installation](#installation)
+* [Homework](#homework)
+* [Tutorial setup](#tutorial)
+* [Text area & table](#text_area)
+* [Add Tasks & Local Db](#tasks)
+* [Mark A Task As Completed](#sections)
+
+ <a name="introduction"></a>
 
 **What is RubyMotion?**
 
@@ -25,11 +27,15 @@ Simply put RubyMotion is a tool that allows you to write iOS apps in Ruby whilst
 
 If you know Ruby well and you want to start building iOS apps, there’s nothing better than RubyMotion. Sure you have to learn a new framework (Cocoa Touch), but that’s easier & quicker than rather than learning a new language (Swift, Objective C). The icing on the cake is that RubyMotion preserves the iOS SDK exactly as intended by Apple, so all existing code examples and tutorials are perfectly translatable.
 
+<a name="installation"></a>
+
 **Installation**
 
 > "*<a href="http://www.RubyMotion.com/buy/index2.html?utm_expid=54787903-6.ZJfhJyorSiu-xKssExEmxA.1&utm_referrer=http://www.RubyMotion.com/buy/index2.html" title="RubyMotion">RubyMotion</a>* is created by Hipbyte. It’s a paid software with 30 days fully functional trial, which is enough time for you to try and see if it suits you.
 
 It requires Xcode, which can be downloaded from the app store. Other dependencies are iOS simulator and command line tools.
+
+<a name="homework"></a>
 
 **Homework**
 
@@ -37,6 +43,7 @@ If you’re completely new to RubyMotion, a very good place to start is by compl
 
 * <a href="http://www.RubyMotion.com/developers/guides/manuals/cocoa/getting-started/">getting-started</a>
 * <a href="http://RubyMotion-tutorial.com/1-hello-motion">hello-motion</a>
+
 <div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="hello-iOS" src="/assets/blogs/hello-iOS.png" style="margin: 20px 2px"></div></div>
 
 Once you go through these tutorials, your key takeaways should be:
@@ -46,7 +53,9 @@ Once you go through these tutorials, your key takeaways should be:
 *  Views can subviews, and that can keep on going.
 *  It uses the Model-View-Controller pattern.
 
- **To-do App Tutorial: Setup**
+<a name="tutorial"></a>
+
+**To-do App Tutorial: Setup**
 
 Let’s begin with our tutorial:
 
@@ -82,6 +91,8 @@ Change the change app_delegate to load our new controller as root view controlle
 
 <div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="todo-0" src="/assets/blogs/todo-0.png" style="margin: 20px 2px; border:3px solid black;"></div></div>
 
+
+<a name="text_area"></a>
 
 **Add Text Area**
 
@@ -209,6 +220,7 @@ And we initialize this view from our ListController.
   end
 ~~~
 
+<a name="tasks"></a>
 
 **Adding a task**
 
@@ -342,6 +354,9 @@ Create new task in the DB with add task function.
   end
 ~~~
 
+
+<a name="sections"></a>
+
 **Different Sections for Completed & Pending Tasks**
 
 Now we will separate the table in 2 sections, completed and pending tasks. After all that is the point of a To-do app. We will set it so that clicking on a task will move it from one section to another.
@@ -430,5 +445,6 @@ And the mark_as_done function toggles the task between completed and pending.
 
 
 <div class="row"><div class='col-md-8 col-md-offset-2'><img class="img-responsive" alt="todo-4" src="/assets/blogs/todo-4.png" style="margin: 20px 2px; border:3px solid black;" border="5"></div></div>
+
 
 **The End**
