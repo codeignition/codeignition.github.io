@@ -6,7 +6,7 @@ tags: ['loggings’,’server logs’,’saas’,’open source’,’elastic se
 author: sumit
 ---
 {% include JB/setup %}
-An integral part of any system, logging maintains live records of everything that happens in that system. Like snapshots of time, logging is helpful in solving often mission critical issues like identifying performance bottlenecks, detecting intrusions or threats, analyzing & identifying trends or patterns, and doing a thorough audit whenever the need arises.
+An integral part of any system, logging maintains live records of everything that happens in that system. Logging is helpful in solving often mission critical issues like identifying performance bottlenecks, detecting intrusions or threats, analyzing & identifying trends or patterns, and doing a thorough audit whenever the need arises.
 
 But despite its clearly important role, many logging mechanisms are riddled with problems. We won’t go into why they arise, but rather touch on what they are, and how implementing centralized logging solves these problems. 
 
@@ -56,7 +56,7 @@ Additionally there are Chef cookbooks, Puppet modules, Ansible playbooks & Docke
 
 ### Further Reading
 
-Selected online resources to learn more about Centralized Logging with ELK & to get you started.
+Check out these links to learn more about Centralized Logging with ELK & how to get started.
 
 * https://github.com/kurtado/elk-puppet
 * https://github.com/bakhti/ansible-elk
