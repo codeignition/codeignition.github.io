@@ -58,7 +58,7 @@ Additionally there are Chef cookbooks, Puppet modules, Ansible playbooks & Docke
 
 Check out these links to learn more about Centralized Logging with ELK & how to get started.
 
-* https://github.com/kurtado/elk-puppet
-* https://github.com/bakhti/ansible-elk
-* https://github.com/rackspace-cookbooks/elkstack
-* https://github.com/willdurand/docker-elk
+* [https://github.com/kurtado/elk-puppet](https://github.com/kurtado/elk-puppet)
+* [https://github.com/bakhti/ansible-elk](https://github.com/bakhti/ansible-elk)
+* [https://github.com/rackspace-cookbooks/elkstack](https://github.com/rackspace-cookbooks/elkstack)
+* [https://github.com/willdurand/docker-elk](https://github.com/willdurand/docker-elk)
