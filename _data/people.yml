@@ -44,3 +44,15 @@ sanat:
   github: sanatarium
   linkedin: sanatthite
   image: /assets/people/sanat-thite.jpg
+
+sumit:
+  name: Sumit Gupta
+  position: Partner | Technology
+  email: sumit@codeignition.co
+  github: timusg
+  twitter: timusg
+  linkedin: timusg
+  image: /assets/people/sumit-gupta.png
+  website: www.timusg.com
+
+

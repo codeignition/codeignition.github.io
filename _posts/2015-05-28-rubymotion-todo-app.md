@@ -3,7 +3,7 @@ layout: post
 title: "Tutorial: To-do App with RubyMotion"
 description: "An Introduction to RubyMotion with a Simple To-do App Tutorial"
 tags: ['Ruby','RubyMotion','IOS']
-author: Mehakdeep Singh
+author: mehak
 ---
 {% include JB/setup %}
 

@@ -2,13 +2,13 @@
 layout: post
 title: "Centralized Logging"
 description: "Get centralized logging using Elastic search, Logstash & Kibana."
-tags: ['loggings’,’server logs’,’saas’,’open source’,’elastic search’,’logstash ’,’kibana ’,’chef ’,’puppet ’,’ansible ’,’docker ’,’big data’,’real time analytics’,’intrusion detection’]
+tags: ['loggings','server logs','saas','open source','elastic search','logstash ','kibana ','chef ','puppet ','ansible','docker','big data','real time analytics','intrusion detection']
 author: sumit
 ---
 {% include JB/setup %}
 An integral part of any system, logging maintains live records of everything that happens in that system. Logging is helpful in solving often mission critical issues like identifying performance bottlenecks, detecting intrusions or threats, analyzing & identifying trends or patterns, and doing a thorough audit whenever the need arises.
 
-But despite its clearly important role, many logging mechanisms are riddled with problems. We won’t go into why they arise, but rather touch on what they are, and how implementing centralized logging solves these problems. 
+But despite its clearly important role, many logging mechanisms are riddled with problems. We won't go into why they arise, but rather touch on what they are, and how implementing centralized logging solves these problems. 
 
 ### Problems with Logs
 
