@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Centralized Logging"
+title: "Centralized Logging in Distributed Systems using ELK"
 description: "Get centralized logging using Elastic search, Logstash & Kibana."
 tags: ['loggings','server logs','saas','open source','elastic search','logstash ','kibana ','chef ','puppet ','ansible','docker','big data','real time analytics','intrusion detection']
 author: sumit
