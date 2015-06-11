@@ -55,4 +55,12 @@ sumit:
   image: /assets/people/sumit-gupta.png
   website: www.timusg.com
 
-
+monika:
+  name: Monika Bhadauria
+  position: DevOps | Optimist
+  email: monikab@codeignition.co
+  github:
+  twitter:
+  linkedin:
+  image: /assets/people/monika-bhadauria.jpeg
+  website:
