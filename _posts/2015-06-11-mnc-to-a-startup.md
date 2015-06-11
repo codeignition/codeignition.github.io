@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "MNC to a STARTUP"
-description: "My move from big MNC to a young and triving startup."
+title: "MNC to Startup: My Best Move Ever"
+description: "My move from big MNC to a young and thriving startup."
 tags: ['mnc','startup','move','life']
 author: monika
 ---
