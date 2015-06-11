@@ -11,8 +11,8 @@ weight: 0
 <hr>
 <div class="content-block">
   <div class="text">
-    <p>We are a lean & agile start-up that loves helping new & emerging start-ups to build, deploy, automate & scale buisness critical solutions.</p>
-    <p>Programmers at heart, we love putting our heads together to solve any buisness problem using code.</p>
+    <p>We are a lean & agile start-up that loves helping new & emerging start-ups to build, deploy, automate & scale business critical solutions.</p>
+    <p>Programmers at heart, we love putting our heads together to solve any business problem using code.</p>
   </div>
   <h1>We are CodeIgnition.</h1>
 </div>
