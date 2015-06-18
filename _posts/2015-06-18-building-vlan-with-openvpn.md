@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Building a virtual LAN using openvpn"
-description: ""
-tags: []
+title: "Mopping up a networking nightmare with an openvpn vlan"
+description: "build a peer to peer openvpn star vlan network"
+tags: ['openvpn','star topoloagy','peer to peer','infrastructure','firewall','networking']
 author: sankalp
 ---
 {% include JB/setup %}

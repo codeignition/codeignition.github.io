@@ -64,3 +64,13 @@ monika:
   linkedin:
   image: /assets/people/monika-bhadauria.jpeg
   website:
+
+sankalp:
+  name: Sankalp Singh
+  position: Sr. Consultant
+  email: sankalpk@codeignition.co
+  github: singhsankalp
+  twitter: ssankalp1
+  linkedin:
+  image: /assets/people/sankalp-singh.jpg
+  website: www.sankalpsingh.com
