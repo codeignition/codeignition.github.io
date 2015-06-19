@@ -182,11 +182,15 @@ With above configuration host should be reachable at 10.20.0.2 from the server. 
 ```
 route <vm ip> 255.255.255.255
 ```
+
 Add the static route on vpn server:
+
 ```
 route add -host <vm ip> gw 10.20.0.2
 ```
+
 Add push route for this vm in server.conf file.
+
 ```
 push "route <vm> 255.255.255.255"
 ```
@@ -205,6 +209,7 @@ But we didn’t stop there. We improved things further by:
 * Setting up an Ansible master on this machine (any config management tool can work)
 * Automating the infrastructure process
 * Setting up Sensu monitoring server (you can use Nagios, if you are one of those guys) to monitor the infrastructure’s health
+
 
 Now with this network, the possibilities are endless!
 
