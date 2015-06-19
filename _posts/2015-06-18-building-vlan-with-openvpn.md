@@ -7,14 +7,7 @@ author: sankalp
 ---
 {% include JB/setup %}
 
----
-layout: post
-title: "Cloud Foundry Meetup @CodeIgnition"
-description: "CodeIgnition hosted its first Cloud Foundry Meetup"
-tags: [‘’]
-author: abhinandan
----
-{% include JB/setup %}
+
 Recently I came across a broken infrastructure where all the servers were managed manually with huge IP table rules.
 
 Each host had as many as 7 to 8 VMs with each interface configured with different network addresses. Plus there was port forwarding for all the application in all the VMs, firewalls configured for per user access based on their static IP, and to make the apps communicate, a big chunk of IP table rules were configured. 
