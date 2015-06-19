@@ -106,11 +106,14 @@ Port forwarding can be done by adding the below rule:
 iptables -t nat -A PREROUTING -p tcp  --dport 1194 -j DNAT --to-destination <vm ip> --to-port 1194
 ```
 Post-routing configuration on the VPN server:
+
 ```
 iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o tun4 -j SNAT --to-source <vm IP address>
 ```
+
 Now that we are able to reach VPN server, we will try to reach other VMs on the same host.
 If you are able to communicate among the VMs on the same host then just adding the below line to server.conf is sufficient to reach other VM over VPN.
+
 ```
 push "route <vm> 255.255.255.255"
 ```
