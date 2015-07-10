@@ -27,7 +27,7 @@ This is a fascinating book to read as it plays out more like an experience repor
 3.**Refactoring**:
 My ex-colleague Martin Fowler has written many books and the way he captures & articulates his experiences makes each book a work of art. This book captures many of his experiences in refactoring in large scale IT projects at ThoughtWorks and elsewhere. If you want to learn how to keep producing efficient code, then this book is a must-read. 
 
-I can’t really do justice reviewing this book, so just go to his site and read up on it: http://martinfowler.com/books/refactoring.html
+I can’t really do justice reviewing this book, so just go to his site and read up on <a href="http://martinfowler.com/books/refactoring.html" target="_blank">his website.</a> 
 
 4.**Pragmatic Programmer**:
 
