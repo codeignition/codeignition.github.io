@@ -6,6 +6,7 @@ tags: [‘developer’,’programmer’,’books’]
 author: ajey
 ---
 {% include JB/setup %}
+
 I have been thinking recently about all the experiences and people that have helped shape how I think and behave today. I often talk with great pride about my friends, colleagues & mentors who have influenced me in a very positive way. People like Roy Singham, Rohit Bansal, Sitaraman Dharmarajan, Markku Koppinen, Rebecca Parsons, Chaitanya Nadkarny to name but a few.
 
 And the one thing common to all of them is that they recommended books that I should read. Books they felt I would like and would be helpful to me, and boy were they right. 
