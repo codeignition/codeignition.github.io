@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Applying Tech Experience to Business Operations, an Erfahrung"
-description: ""
-tags: []
+description: "Using technology principles and experience to manage finance & operations for a start-up"
+tags: ['start-up','business operations','business finance','financial projection','project estimation','accounting golden rule']
 author: shraddha
 ---
 
