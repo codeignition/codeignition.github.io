@@ -74,3 +74,33 @@ sankalp:
   linkedin:
   image: /assets/people/sankalp-singh.jpg
   website: www.sankalpsingh.com
+
+shraddha:
+  name: Shraddha Gore
+  position: Partner | Ops & Fin
+  email: shraddha@codeignition.co
+  github: shraddhagore
+  twitter: shraddhagore
+  linkedin: shraddhagore
+  image: /assets/people/shraddha-gore.jpg
+  website:
+
+debashish:
+  name: Debashish Ghatak
+  position: Devops
+  email: debashishg@codeignition.co
+  github: wallydrag
+  twitter: wallydrag8
+  linkedin: 
+  image: /assets/people/debashish-ghatak.jpg
+  website: wallydrag.github.io
+
+hariom:
+  name: Hariom Gaur
+  position: Developer
+  email: hariomg@codeignition.co
+  github: hogaur
+  twitter: hogaur
+  linkedin: 
+  image:
+  website:
