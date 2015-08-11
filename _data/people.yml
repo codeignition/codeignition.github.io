@@ -114,3 +114,13 @@ sartaj:
   linkedin: sartaj-singh
   image: /assets/people/sartaj.jpg
   website: sartajsingh.github.io
+  
+gurupratap:
+  name: Gurupratap
+  position: Intern
+  email: gurupratap@codeignition.co
+  github: gurupratap91
+  twitter: @gurupratap91
+  linkedin:
+  image: /assets/people/gurupratap.jpg
+  website: gurupratap91.github.io
