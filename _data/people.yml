@@ -104,3 +104,13 @@ hariom:
   linkedin: 
   image: /assets/people/hariom-gaur.jpg
   website: hogaur.github.io
+
+sartaj:
+  name: Sartaj Singh
+  position: Developer
+  email: sartajs@codeigniton.com
+  github: sartajsingh
+  twitter: @singhsartaj11
+  linkedin: sartaj-singh
+  image: /assets/people/sartaj.jpg
+  website: sartajsingh.github.io
