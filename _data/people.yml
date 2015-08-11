@@ -101,16 +101,16 @@ hariom:
   email: hariomg@codeignition.co
   github: hogaur
   twitter: hogaur
-  linkedin: 
-  image:
-  website:
+  linkedin:
+  image: /assets/people/hariom-gaur.jpg
+  website: hogaur.github.io
 
 sartaj:
   name: Sartaj Singh
-  position:
-  email: sartajs@codeignition.co
+  position: Developer
+  email: sartajs@codeigniton.com
   github: sartajsingh
-  twitter: singhsartaj11
+  twitter: @singhsartaj11
   linkedin: sartaj-singh
   image: /assets/people/sartaj.jpg
-  website:
+  website: sartajsingh.github.io

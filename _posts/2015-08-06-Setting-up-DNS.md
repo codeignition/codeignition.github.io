@@ -2,8 +2,7 @@
 layout: post
 title:  "Setting up DNS server on ubuntu"
 description: "DNS How To blog"
-date:   2015-07-16 00:18:58
-authour: Himanshu Shukla
+author: himanshu
 ---
 # Setting up a DNS server from scratch
 
