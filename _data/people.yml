@@ -110,7 +110,7 @@ sartaj:
   position: Developer
   email: sartajs@codeigniton.co
   github: sartajsingh
-  twitter: @singhsartaj11
+  twitter: singhsartaj11
   linkedin: sartaj-singh
   image: /assets/people/sartaj.jpg
   website: sartajsingh.github.io
@@ -120,7 +120,7 @@ gurupratap:
   position: Intern
   email: gurupratap@codeignition.co
   github: gurupratap91
-  twitter: @gurupratap91
+  twitter: gurupratap91
   linkedin:
   image: /assets/people/gurupratap.jpg
   website: gurupratap91.github.io
@@ -130,7 +130,17 @@ hariharan:
   position: Intern
   email: hariharan@codeignition.co
   github: hariharan-uno
-  twitter: @hariharan_uno
+  twitter: hariharan_uno
   linkedin: hariharanuno
   image: /assets/people/hariharan.png
   website: hariharan.uno
+
+abhinandan:
+  name: Abhinandan K
+  position: DevOps | Enlightened
+  email: abhinandank@codeignition.co
+  github: abhinandankothari
+  twitter: abhinandan
+  linkedin: abhinandankothari
+  image: /assets/people/abhinandan-kothari.jpeg
+  website: 
