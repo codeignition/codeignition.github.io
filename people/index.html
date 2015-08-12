@@ -23,6 +23,22 @@ name : bootstrap-3
   <div class="row text">
     {% for key_name in site.data.people_list %}
     {% assign member = site.data.people[key_name] %}
+    {% if member.name == "Ajey Gore" %}
+    <div class="col-md-3" style="margin-bottom:3%">
+      <a href="/people/ajey.html">
+	<img src="{{member.image}}" class="img-circle" alt="{{member.name}}" height="150px">
+	{{ member.name }}
+	<br/>
+	{{ member.position }}
+	<br/>
+      </a>
+      <div class="text">
+        <a href="https://github.com/{{ member.github }}" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/{{ member.twitter }}" target = "_blank"><i class="fa fa-2x fa-twitter"></i></a>
+        <a href="https://in.linkedin.com/in/{{ member.linkedin }}" target = "_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+      </div>
+    </div>
+    {% else %}
     <div class="col-md-3" style="margin-bottom:3%">
       <img src="{{member.image}}" class="img-circle" alt="{{member.name}}" height="150px">
       {{ member.name }}
@@ -35,6 +51,7 @@ name : bootstrap-3
         <a href="https://in.linkedin.com/in/{{ member.linkedin }}" target = "_blank"><i class="fa fa-2x fa-linkedin"></i></a>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
     <div class="col-md-3">
       <img src="/assets/people/laughing-ninja.jpg" class="img-circle" alt="Laughing Ninja" height="150px">
