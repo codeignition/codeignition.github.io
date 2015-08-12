@@ -2,8 +2,8 @@
 layout: default
 nav-name: PRODUCTS
 group: navigation
-title: Products of CodeIgnition
-description:
+title: Product Portfolio of CodeIgnition
+description: We love creating tools that make our lives simple & are proud parents of Beacon - a voice calling IT incident layer & Recon - intelligent IT monitoring for the open-source community.
 weight: 2
 theme :
   name : bootstrap-3
