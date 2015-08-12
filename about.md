@@ -32,7 +32,7 @@ theme :
 <div class="content-block">
   <h1 class="purple">Our Toolkit</h1>
   <div class="text">
-    <p>We love to experiment with Chef, AWS, Puppet, Jenkins, Ansible, Docker, Azure, Nagios & more for a smarter infrastructure that scales automatically.</p>
+    <p>We love to experiment with Chef, AWS, Puppet, Jenkins, Ansible, Docker, Azure, Nagios, Kubernetes, Mesos, OpenStack, LXC & more for a smarter infrastructure that scales automatically.</p>
     <p>As curious developers, we love to play with Ruby, Go, Python, JavaScript, Java & related frameworks, and we are very flexible in adopting to our client's stack & choices.</p>
   </div>
   <div class="row">
