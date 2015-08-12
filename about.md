@@ -37,26 +37,26 @@ theme :
   </div>
   <div class="row">
     <div class="col-md-6">
-      <div class="col-md-4"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws-logo.png"></div>
+      <div class="col-md-4"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws.png"></div>
       <div class="col-md-4"><img alt="ansible" class="img-responsive" src="{{ ASSET_PATH }}/images/ansible.png"></div>
-      <div class="col-md-4"><img alt="chef" class="img-responsive" src="{{ ASSET_PATH }}/images/chef2.png"></div>
+      <div class="col-md-4"><img alt="chef" class="img-responsive" src="{{ ASSET_PATH }}/images/chef.png"></div>
     </div>
     <div class="col-md-6">
       <div class="col-md-4"><img alt="docker" class="img-responsive" src="{{ ASSET_PATH }}/images/docker.png"></div>
-      <div class="col-md-4"><img alt="jenkins" class="img-responsive" src="{{ ASSET_PATH }}/images/jenkinslogo.png"></div>
-      <div class="col-md-4"><img alt="openstack" class="img-responsive" src="{{ ASSET_PATH }}/images/openstack-logo-full.png"></div>
+      <div class="col-md-4"><img alt="jenkins" class="img-responsive" src="{{ ASSET_PATH }}/images/jenkins.png"></div>
+      <div class="col-md-4"><img alt="openstack" class="img-responsive" src="{{ ASSET_PATH }}/images/openstack.png"></div>
     </div>
   </div>
   <div class="row">
     <div class="col-md-6">
-      <div class="col-md-4"><img alt="ruby" class="img-responsive" src="{{ ASSET_PATH }}/images/Ruby_logo.png"></div>
+      <div class="col-md-4"><img alt="ruby" class="img-responsive" src="{{ ASSET_PATH }}/images/ruby.png"></div>
       <div class="col-md-4"><img alt="rails" class="img-responsive" src="{{ ASSET_PATH }}/images/rails.png"></div>
       <div class="col-md-4"><img alt="golang" class="img-responsive" src="{{ ASSET_PATH }}/images/golang.png"></div>
     </div>
     <div class="col-md-6">
-      <div class="col-md-4"><img alt="node" class="img-responsive" src="{{ ASSET_PATH }}/images/nodejs.png"></div>
-      <div class="col-md-4"><img alt="angular" class="img-responsive" src="{{ ASSET_PATH }}/images/angularjs-logo.png"></div>
-      <div class="col-md-4"><img alt="polymer" class="img-responsive" src="{{ ASSET_PATH }}/images/polymerproject.png"></div>
+      <div class="col-md-4"><img alt="node" class="img-responsive" src="{{ ASSET_PATH }}/images/node.png"></div>
+      <div class="col-md-4"><img alt="angular" class="img-responsive" src="{{ ASSET_PATH }}/images/angular.png"></div>
+      <div class="col-md-4"><img alt="polymer" class="img-responsive" src="{{ ASSET_PATH }}/images/polymer.png"></div>
     </div>
   </div>
 </div>
@@ -66,9 +66,9 @@ theme :
   <p class="text">We are proud to be friends with:</p>
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
-      <div class="col-md-3"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws-logo.png"></div>
+      <div class="col-md-3"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws.png"></div>
       <div class="col-md-3"><img alt="c42" class="img-responsive" src="{{ ASSET_PATH }}/images/c42logo.png"></div>
-      <div class="col-md-3"><img alt="go" class="img-responsive" src="{{ ASSET_PATH }}/images/logo-go-home_2014.png"></div>
+      <div class="col-md-3"><img alt="go" class="img-responsive" src="{{ ASSET_PATH }}/images/gocd.png"></div>
       <div class="col-md-3"><img alt="josh" class="img-responsive" src="{{ ASSET_PATH }}/images/josh.png"></div>
     </div>
   </div>
