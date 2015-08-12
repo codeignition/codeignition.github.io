@@ -59,9 +59,9 @@ monika:
   name: Monika Bhadauria
   position: DevOps | Optimist
   email: monikab@codeignition.co
-  github:
-  twitter:
-  linkedin:
+  github: monikabhadauria
+  twitter: monbh
+  linkedin: monikabhadauria
   image: /assets/people/monika-bhadauria.jpeg
   website:
 
@@ -101,6 +101,67 @@ hariom:
   email: hariomg@codeignition.co
   github: hogaur
   twitter: hogaur
+  linkedin:
+  image: /assets/people/hariom-gaur.jpg
+  website: hogaur.github.io
+
+sartaj:
+  name: Sartaj Singh
+  position: Developer
+  email: sartajs@codeigniton.co
+  github: sartajsingh
+  twitter: singhsartaj11
+  linkedin: sartajsingh
+  image: /assets/people/sartaj.jpg
+  website: sartajsingh.github.io
+  
+gurupratap:
+  name: Gurupratap
+  position: Intern
+  email: gurupratap@codeignition.co
+  github: gurupratap91
+  twitter: gurupratap91
+  linkedin:
+  image: /assets/people/gurupratap.jpg
+  website: gurupratap91.github.io
+
+hariharan:
+  name: Hari haran
+  position: Intern
+  email: hariharan@codeignition.co
+  github: hariharan-uno
+  twitter: hariharan_uno
+  linkedin: hariharanuno
+  image: /assets/people/hariharan.png
+  website: hariharan.uno
+
+abhinandan:
+  name: Abhinandan K
+  position: DevOps | Enlightened
+  email: abhinandank@codeignition.co
+  github: abhinandankothari
+  twitter: abhinandan
+  linkedin: abhinandankothari
+  image: /assets/people/abhinandan-kothari.jpeg
+  website: 
+  
+akashdeep:
+  name: Akashdeep Singh
+  position: Developer
+  email: akashs@codeignition.co
+  github: akashkahlon
+  twitter: akashkahlon2
+  linkedin: akashkahlon
+  image: /assets/people/akashdeep-singh.jpg
+  website: akashkahlon.github.io
+
+himanshu:
+  name: Himanshu Shukla
+  position: Developer
+  email: himanshus@codeignition.co
+  github: shuklahimanshu
+  twitter: _shuklahimanshu
   linkedin: 
-  image:
-  website:
+  image: /assets/people/himanshu-shukla.jpg
+  website: 
+
