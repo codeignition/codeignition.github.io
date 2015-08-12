@@ -27,7 +27,7 @@ theme :
     <p>Driven by simple APIs, Beacon integrates with any incident management tool & allows you to manage teams, incidents & custom rules from its own interface.</p>
     <p>It only take a couple minutes to sign up & start using Beacon.</p>
   </div>
-  <a href="http://www.getbeacon.in" class="btn btn-default">GET STARTED</a>
+  <a href="http://www.getbeacon.in" target="_blank">VISIT SITE <i class="fa fa-angle-double-right"></i></a>
 </div>
 <hr>
 <div class="content-block">
@@ -37,7 +37,7 @@ theme :
     <p>Recon is an infrastructure & services monitoring tool with built-in default configurations, automated analytics & dashboards, and predictive reporting.</p>
     <p>With our eyes on automation, intuitive configs & user experience, Recon will be a comprehensive monitoring tool for the open-source community.</p>
   </div>
-  <a href="http://reconapp.io" class="btn btn-default">EXPLORE RECON</a>
+  <a href="http://reconapp.io" target="_blank">VISIT SITE <i class="fa fa-angle-double-right"></i></a>
 </div>
 <hr>
 <div class="content-block">
