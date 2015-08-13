@@ -66,10 +66,10 @@ theme :
   <p class="text">We are proud to be friends with:</p>
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
-      <div class="col-md-3"><a href="http://aws.amazon.com/" target="_blank"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws.png"></a></div>
-      <div class="col-md-3"><a href="http://c42.in/" target="_blank"><img alt="c42" class="img-responsive" src="{{ ASSET_PATH }}/images/c42logo.png"></a></div>
-      <div class="col-md-3"><a href="http://www.go.cd/" target="_blank"><img alt="go" class="img-responsive" src="{{ ASSET_PATH }}/images/gocd.png"></a></div>
-      <div class="col-md-3"><a href="http://www.joshsoftware.com/" target="_blank"><img alt="josh" class="img-responsive" src="{{ ASSET_PATH }}/images/josh.png"></a></div>
+      <div class="col-md-3"><a href="http://aws.amazon.com/" target="_blank" onclick="trackOutboundLink('http://www.aws.amazon.com'); return false;"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws.png"></a></div>
+      <div class="col-md-3"><a href="http://c42.in/" target="_blank" onclick="trackOutboundLink('http://c42.in'); return false;"><img alt="c42" class="img-responsive" src="{{ ASSET_PATH }}/images/c42logo.png"></a></div>
+      <div class="col-md-3"><a href="http://www.go.cd/" target="_blank" onclick="trackOutboundLink('http://www.go.cd'); return false;"><img alt="go" class="img-responsive" src="{{ ASSET_PATH }}/images/gocd.png"></a></div>
+      <div class="col-md-3"><a href="http://www.joshsoftware.com/" target="_blank" onclick="trackOutboundLink('http://www.joshsoftware.com'); return false;"><img alt="josh" class="img-responsive" src="{{ ASSET_PATH }}/images/josh.png"></a></div>
     </div>
   </div>
 </div>
