@@ -36,16 +36,18 @@ theme :
     <p>As curious developers, we love to play with Ruby, Go, Python, JavaScript, Java & related frameworks, and we are very flexible in adopting to our client's stack & choices.</p>
   </div>
   <div class="row">
-    <div class="col-md-6">
-      <div class="col-md-4"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws.png"></div>
-      <div class="col-md-4"><img alt="ansible" class="img-responsive" src="{{ ASSET_PATH }}/images/ansible.png"></div>
-      <div class="col-md-4"><img alt="chef" class="img-responsive" src="{{ ASSET_PATH }}/images/chef.png"></div>
-    </div>
-    <div class="col-md-6">
-      <div class="col-md-4"><img alt="docker" class="img-responsive" src="{{ ASSET_PATH }}/images/docker.png"></div>
-      <div class="col-md-4"><img alt="jenkins" class="img-responsive" src="{{ ASSET_PATH }}/images/jenkins.png"></div>
-      <div class="col-md-4"><img alt="openstack" class="img-responsive" src="{{ ASSET_PATH }}/images/openstack.png"></div>
-    </div>
+    <div class="col-md-2 col-md-offset-1"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws.png"></div>
+    <div class="col-md-2"><img alt="ansible" class="img-responsive" src="{{ ASSET_PATH }}/images/ansible.png"></div>
+    <div class="col-md-2"><img alt="chef" class="img-responsive" src="{{ ASSET_PATH }}/images/chef.png"></div>
+    <div class="col-md-2"><img alt="docker" class="img-responsive" src="{{ ASSET_PATH }}/images/docker.png"></div>
+    <div class="col-md-2"><img alt="jenkins" class="img-responsive" src="{{ ASSET_PATH }}/images/jenkins.png"></div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 col-md-offset-1"><img alt="kubernetes" class="img-responsive" src="{{ ASSET_PATH }}/images/kubernetes.png"></div>
+    <div class="col-md-2"><img alt="linuxcontainers" class="img-responsive" src="{{ ASSET_PATH }}/images/linuxcontainers.png"></div>
+    <div class="col-md-2"><img alt="mesos" class="img-responsive" src="{{ ASSET_PATH }}/images/apache-mesos.png"></div>
+    <div class="col-md-2"><img alt="openstack" class="img-responsive" src="{{ ASSET_PATH }}/images/openstack.png"></div>
+    <div class="col-md-2"><img alt="puppet" class="img-responsive" src="{{ ASSET_PATH }}/images/puppetlabs.png"></div>
   </div>
   <div class="row">
     <div class="col-md-6">
