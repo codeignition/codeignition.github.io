@@ -9,7 +9,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
   var trackOutboundLink = function(url) {
-    console.log("In Track outbound");
    ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
      function () {
      document.location = url;
