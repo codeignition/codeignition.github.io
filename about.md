@@ -36,16 +36,18 @@ theme :
     <p>As curious developers, we love to play with Ruby, Go, Python, JavaScript, Java & related frameworks, and we are very flexible in adopting to our client's stack & choices.</p>
   </div>
   <div class="row">
-    <div class="col-md-6">
-      <div class="col-md-4"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws.png"></div>
-      <div class="col-md-4"><img alt="ansible" class="img-responsive" src="{{ ASSET_PATH }}/images/ansible.png"></div>
-      <div class="col-md-4"><img alt="chef" class="img-responsive" src="{{ ASSET_PATH }}/images/chef.png"></div>
-    </div>
-    <div class="col-md-6">
-      <div class="col-md-4"><img alt="docker" class="img-responsive" src="{{ ASSET_PATH }}/images/docker.png"></div>
-      <div class="col-md-4"><img alt="jenkins" class="img-responsive" src="{{ ASSET_PATH }}/images/jenkins.png"></div>
-      <div class="col-md-4"><img alt="openstack" class="img-responsive" src="{{ ASSET_PATH }}/images/openstack.png"></div>
-    </div>
+    <div class="col-md-2 col-md-offset-1"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws.png"></div>
+    <div class="col-md-2"><img alt="ansible" class="img-responsive" src="{{ ASSET_PATH }}/images/ansible.png"></div>
+    <div class="col-md-2"><img alt="chef" class="img-responsive" src="{{ ASSET_PATH }}/images/chef.png"></div>
+    <div class="col-md-2"><img alt="docker" class="img-responsive" src="{{ ASSET_PATH }}/images/docker.png"></div>
+    <div class="col-md-2"><img alt="jenkins" class="img-responsive" src="{{ ASSET_PATH }}/images/jenkins.png"></div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 col-md-offset-1"><img alt="kubernetes" class="img-responsive" src="{{ ASSET_PATH }}/images/kubernetes.png"></div>
+    <div class="col-md-2"><img alt="linuxcontainers" class="img-responsive" src="{{ ASSET_PATH }}/images/linuxcontainers.png"></div>
+    <div class="col-md-2"><img alt="mesos" class="img-responsive" src="{{ ASSET_PATH }}/images/apache-mesos.png"></div>
+    <div class="col-md-2"><img alt="openstack" class="img-responsive" src="{{ ASSET_PATH }}/images/openstack.png"></div>
+    <div class="col-md-2"><img alt="puppet" class="img-responsive" src="{{ ASSET_PATH }}/images/puppetlabs.png"></div>
   </div>
   <div class="row">
     <div class="col-md-6">
@@ -65,11 +67,10 @@ theme :
   <h1 class="purple">Our Partners</h1>
   <p class="text">We are proud to be friends with:</p>
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="col-md-3"><a href="http://aws.amazon.com/" target="_blank"><img alt="aws" class="img-responsive" src="{{ ASSET_PATH }}/images/aws.png"></a></div>
-      <div class="col-md-3"><a href="http://c42.in/" target="_blank"><img alt="c42" class="img-responsive" src="{{ ASSET_PATH }}/images/c42logo.png"></a></div>
-      <div class="col-md-3"><a href="http://www.go.cd/" target="_blank"><img alt="go" class="img-responsive" src="{{ ASSET_PATH }}/images/gocd.png"></a></div>
-      <div class="col-md-3"><a href="http://www.joshsoftware.com/" target="_blank"><img alt="josh" class="img-responsive" src="{{ ASSET_PATH }}/images/josh.png"></a></div>
+    <div class="col-md-9 col-md-offset-2">
+      <div class="col-md-3"><a href="http://c42.in/" target="_blank" onclick="trackOutboundLink('http://c42.in'); return false;"><img alt="c42" class="img-responsive" src="{{ ASSET_PATH }}/images/c42logo.png"></a></div>
+      <div class="col-md-3"><a href="http://www.go.cd/" target="_blank" onclick="trackOutboundLink('http://www.go.cd'); return false;"><img alt="go" class="img-responsive" src="{{ ASSET_PATH }}/images/gocd.png"></a></div>
+      <div class="col-md-3"><a href="http://www.joshsoftware.com/" target="_blank" onclick="trackOutboundLink('http://www.joshsoftware.com'); return false;"><img alt="josh" class="img-responsive" src="{{ ASSET_PATH }}/images/josh.png"></a></div>
     </div>
   </div>
 </div>
