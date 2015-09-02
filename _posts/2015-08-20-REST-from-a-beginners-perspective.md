@@ -5,6 +5,7 @@ description: "An overview of REST"
 date:   2015-07-22 02:10:06
 author: Gurupratap
 ---
+{% include JB/setup %}
 
 I had heard a lot about REST and RESTfullness of applications. It appeared to be a jargon for me for quite a while.
 It's actually not that difficult to understand. In this blog I have tried to focus on the conceptual idea of what REST is and did not get into the standard definition.
