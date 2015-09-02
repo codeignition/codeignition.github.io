@@ -48,7 +48,3 @@ Another convention in `Rails` allows you to get the desired output from your vie
 
 What `convention over configuration` really suggests is that there is a hard way to do a thing and then there is a smart way to do the same thing without necessarily losing flexibility, and that smart way has its pros of being speedy, less confusing, simple to understand and adaptable to different minds.
 So, if you are an inspiring developer and have a thing for simple and speedy development, then `Convention over Configuration` is the way to go.
-
-
-
-

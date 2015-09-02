@@ -2,7 +2,7 @@
 layout: post
 title:  "REST from a beginner's perspective"
 description: "An overview of REST"
-date:   2015-07-22 02:10:06
+tags: ['rails','rest']
 author: Gurupratap
 ---
 {% include JB/setup %}
