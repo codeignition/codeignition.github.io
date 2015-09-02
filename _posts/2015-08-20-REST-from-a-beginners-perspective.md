@@ -3,7 +3,7 @@ layout: post
 title:  "REST from a beginner's perspective"
 description: "An overview of REST"
 tags: ['rails','rest']
-author: Gurupratap
+author: gurupratap
 ---
 {% include JB/setup %}
 
