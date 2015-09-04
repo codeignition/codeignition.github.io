@@ -3,7 +3,7 @@ layout: post
 title: "Full-Text Search in SQL"
 description: "How full-text seacrh works and what makes it efficient"
 tags: ['ruby','rails','search','full text']
-author: Akashdeep Singh
+author: akashdeep
 ---
 
 Full-text search means to take a sub-string and match it against a given database to find data with similar sub-strings.
