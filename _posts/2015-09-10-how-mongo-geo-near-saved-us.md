@@ -3,7 +3,7 @@ layout: post
 title: "How Mongo Geo Near Saved Us"
 description: "Experience with the redis-geo and mongo-geo"
 author: mehak
-tags: ["MongoDB,Redis,Geo-Near"]
+tags: ["mongodb","redis","geo-near","location"]
 ---
 {% include JB/setup %}
 This is a story of a experience with Redis-geo and Mongo-geo.
