@@ -1,29 +1,24 @@
 ---
 layout: post
-title: "How Mongo Geo Near Saved Us"
-description: "Experience with the redis-geo and mongo-geo"
+title: "How Mongo geoNear Saved The Day"
+description: "Experience handling massive location requests on Redis Lua Geo and Mongo geoNear"
 author: mehak
 tags: ["mongodb","redis","geo-near","location"]
 ---
 {% include JB/setup %}
-This is a story of a experience with Redis-geo and Mongo-geo.
 
-There was a requirement to save location (latitude/longitude) for users and then query on that to get nearby users in a given radius.
-The frequency of updates was around 1500~2000 requests per second.
-To match with that Frequency we decided to use [Redis-geo](http://redis.io/commands#geo).
-The query Frequency was also high along with the Updates. So we had set up cluster with 1 master to write and 2 slaves to read from.
-The Updates rate was meeting up with the incoming rate, and slaves were handling the reads.
-Then We came to know about an [issue](https://groups.google.com/forum/#!topic/redis-db/w6zcOzVtPXg) in Redis-Geo,
-that there is a problem with the sync for geo data and the fix will be in Redis version [3.2](http://antirez.com/news/89).
-And the only temporary solution was to restart slaves, that was like force resync.
+The requirement was straightforward: Save users’ locations (latitudes & longitudes) & query against them to produce a list of nearby users within a set radius of any user.
 
-But the data updates were so frequent that we had to restart salves every minute. This was a stop gap solution till we figure out something concrete.
+We chose [Redis](http://redis.io/commands#geo) with Lua Geo Scripting, and we set up 1 master to write & 2 slaves to read from. The updates were matching the incoming rate and the slaves were handling the reads, until the numbers climbed up to 80,000 requests per minute.
 
-We decided to use [MongoDb-Geo-Near](http://docs.mongodb.org/manual/reference/command/geoNear/).
-So we moved to mongo, Setup 1 master 2 slaves environment To Handle the load and come near the redis performance we made certain enhancements
+That’s when we came to know about an [issue](https://groups.google.com/forum/#!topic/redis-db/w6zcOzVtPXg) in Redis-Geo, in that it couldn’t scale to update & retrieve the records and transmit the data now required to handle the high number of requests.
 
-One was Introducting [Rabbitmq](http://www.rabbitmq.com), thus queueing up all the update requests, so not overloading Mongo and there is no chance of losing any requests.
+The fix for this is expected in the next Redis update version [3.2](http://antirez.com/news/89) & the only temporary solution was to restart slaves, which as a force resync doesn’t really work when you have to restart slaves every minute.
 
-Another Was moving mongo to a ram disk. Since our Data size was not large, this step was a major booster in performance.
+This stop gap solution wasn’t going to work, so we decided to use [MongoDb-geoNear](http://docs.mongodb.org/manual/reference/command/geoNear/). We set up the same 1 master & 2 slaves environment and to handle the request load efficiently we made a few enhancements.
 
-Finally Making the correct set of indexes and we are keeping up with the load now.The sync happens on time  and No more restarts.
+One was introducing [Rabbitmq](http://www.rabbitmq.com), thus queuing up all the update requests so as to not overload Mongo & leaving no chance of losing any requests.
+
+Another was moving Mongo to a RAM disk. Since the data size itself was not large, this step gave a huge boost in load performance, and the last one was making the correct set of indexes.
+
+The solution worked. We have been keeping up with the load consistently as the number of requests has only grown. The sync happens on time, and there are no more slave restarts. 
