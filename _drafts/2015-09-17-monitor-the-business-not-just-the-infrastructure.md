@@ -3,7 +3,7 @@ layout: post
 title: "Monitor the Business, not just the Infrastructure"
 description: "Why setting up monitoring for business before infrastructure makes better DevOps sense"
 tags: []
-tags: [’monitoring’,’business metrics’,’devops best practices’,’infrastructure’,’dashboards’,’computing resources’,’trend analysis’,’proactive devops’]
+tags: [monitoring,business metrics,devops best practices,infrastructure,dashboards,computing resources,trend analysis,proactive devops]
 author: sumit
 ---
 
