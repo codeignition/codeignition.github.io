@@ -3,7 +3,7 @@ layout: post
 title: "Resilience Testing [Part 1]"
 description: "What is resilience testing and why do we need it"
 tags: [’aws’,’disaster recovery’,’automation’, ’infrastructure’,’high availability’]
-author: sanat
+author: vipul
 ---
 {% include JB/setup %}
 **Introduction**
