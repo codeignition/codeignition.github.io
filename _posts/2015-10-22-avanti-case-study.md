@@ -35,7 +35,7 @@ All these services are launched on 1 server each with separate databases which a
 
 Stack: AWS EC2/S3 instances with HAProxy, Ruby on Rails applications & MongoDb
 
-**Frontend**
+##Frontend
 
 Our first milestones were finishing the centralized User Service & a version of CMS that allowed content team to create & upload content. A fast desktop friendly interface for both these services was the call of the hour since their users would always be internal i.e. admins & content team members. We used Bootstrap to deliver working versions pretty fast, and kept iterating & streamlining as the transition for this set of operations began.
 
