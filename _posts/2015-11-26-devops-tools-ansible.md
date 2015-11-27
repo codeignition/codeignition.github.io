@@ -2,7 +2,8 @@
 layout: post
 title: "Devops tools we love - Ansible"
 description: "A basic introduction to Ansible"
-category: [configuration management, orchestration]
+tags: ['configuration management', 'orchestration', 'ansible', 'devops']
+author: debashish
 ---
 {% include JB/setup %}
 
@@ -23,7 +24,7 @@ Also there are always these scenarios when something important dies and
 you are not sure about how to recreate it quickly. And you again engage
 into such manual work which created this mess in the first place.
 
-#### There should be a better way, right.
+## There should be a better way, right.
 
 This is where configuration management tools come in to automate such
 tasks, saving you time and improving the overall process.
@@ -38,7 +39,7 @@ So what we need is Ansible installed on your machine/workstation. This
 is generally called the Ansible management node. Also you need an inventory
 file and playbook(s).
 
-#### What do these terms, inventory file and playbooks mean?
+## What do these terms, inventory file and playbooks mean?
 
 An inventory file is basically just a listing of host names or ip
 addresses of instances you want to configure. You can either use fqdn or
